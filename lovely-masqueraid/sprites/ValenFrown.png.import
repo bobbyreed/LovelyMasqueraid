@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d3ssjmdo61qc7"
-path="res://.godot/imported/CorvusFrown.png-418131040c1f3a9a448437ea0f3986c9.ctex"
+path="res://.godot/imported/ValenFrown.png-1f298f4302c72a10d7fa0daa76ec2b9e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://sprites/CorvusFrown.png"
-dest_files=["res://.godot/imported/CorvusFrown.png-418131040c1f3a9a448437ea0f3986c9.ctex"]
+source_file="res://sprites/ValenFrown.png"
+dest_files=["res://.godot/imported/ValenFrown.png-1f298f4302c72a10d7fa0daa76ec2b9e.ctex"]
 
 [params]
 

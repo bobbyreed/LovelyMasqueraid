@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+
+#current{
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;   
+}
+
+#past{
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(43, 162, 226);
+    color: white;   
+}

@@ -10,12 +10,22 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "",
-&"description": "",
+&"default_portrait": "Valen Frown",
+&"description": "Valen (femboy) is kinda very focused on his goals and his friends, and cares about nature, but doesn't care about other people's goals and opinions, so should be helpful about things. He’ll either serve as your hostage if you end up needing a distraction or he’ll help you find the way down to the basement where you can ditch him and plug in the security code.",
 &"display_name": "Valen",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
-&"portraits": {},
+&"portraits": {
+"Valen Frown": {
+"export_overrides": {
+"image": "\"res://sprites/ValenFrown.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
 &"scale": 1.0
 }

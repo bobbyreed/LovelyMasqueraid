@@ -10,12 +10,31 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "",
-&"description": "",
+&"default_portrait": "Furrowed",
+&"description": "An intelligent and flirty jock, also the one holding the launch codes for the mask mind-reprogramming update. He takes pride in his role and doesn’t like to be talked down to or insulted, especially when his honor is questioned and compared to Ray’s. You’ll need to steal his codes in order to successfully stop the update from rolling out and keep people from completely losing their humanity.",
 &"display_name": "Nikolas",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
-&"portraits": {},
+&"portraits": {
+"Furrowed": {
+"export_overrides": {
+"image": "\"res://sprites/NikolasFurrowed.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Idle": {
+"export_overrides": {
+"image": "\"res://sprites/NikolasIdle.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
 &"scale": 1.0
 }

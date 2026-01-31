@@ -34,12 +34,12 @@ directories/dtl_directory={
 "2ballroom": "res://timelines/2ballroom.dtl"
 }
 layout/style_directory={
-"": "res://styles/earSpeaker.tres",
 "corvus": "res://styles/corvus.tres",
 "earSpeaker": "res://styles/earSpeaker.tres"
 }
-layout/style_list=["res://styles/earSpeaker.tres", "res://styles/corvus.tres"]
-layout/default_style="res://styles/earSpeaker.tres"
+layout/style_list=["res://styles/corvus.tres", "res://styles/earSpeaker.tres"]
+layout/default_style=""
+glossary/default_case_sensitive=true
 
 [editor_plugins]
 
