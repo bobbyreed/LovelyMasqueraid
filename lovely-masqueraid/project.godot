@@ -35,9 +35,10 @@ directories/dtl_directory={
 }
 layout/style_directory={
 "": "res://styles/earSpeaker.tres",
+"corvus": "res://styles/corvus.tres",
 "earSpeaker": "res://styles/earSpeaker.tres"
 }
-layout/style_list=["res://styles/earSpeaker.tres"]
+layout/style_list=["res://styles/earSpeaker.tres", "res://styles/corvus.tres"]
 layout/default_style="res://styles/earSpeaker.tres"
 
 [editor_plugins]
