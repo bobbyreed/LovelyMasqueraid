@@ -18,6 +18,27 @@ config/icon="res://icon.svg"
 
 Dialogic="*uid://ds2q0uclmolvu"
 
+[dialogic]
+
+directories/dch_directory={
+"corvus": "res://characters/corvus.dch",
+"crows": "res://characters/crows.dch",
+"earSpeaker": "res://characters/earSpeaker.dch",
+"nikolas": "res://characters/nikolas.dch",
+"player": "res://characters/player.dch",
+"valen": "res://characters/valen.dch"
+}
+directories/dtl_directory={
+"1corvus": "res://timelines/1corvus.dtl",
+"2ballroom": "res://timelines/2ballroom.dtl"
+}
+layout/style_directory={
+"": "res://styles/earSpeaker.tres",
+"earSpeaker": "res://styles/earSpeaker.tres"
+}
+layout/style_list=["res://styles/earSpeaker.tres"]
+layout/default_style="res://styles/earSpeaker.tres"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/dialogic/plugin.cfg")
