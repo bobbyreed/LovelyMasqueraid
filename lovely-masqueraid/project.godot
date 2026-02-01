@@ -27,6 +27,7 @@ directories/dch_directory={
 "earSpeaker": "res://characters/earSpeaker.dch",
 "nikolas": "res://characters/nikolas.dch",
 "player": "res://characters/player.dch",
+"ray": "res://characters/ray.dch",
 "valen": "res://characters/valen.dch"
 }
 directories/dtl_directory={
