@@ -31,17 +31,21 @@ directories/dch_directory={
 "valen": "res://characters/valen.dch"
 }
 directories/dtl_directory={
+"0menu": "res://timelines/0menu.dtl",
 "1corvus": "res://timelines/1corvus.dtl",
 "2ballroom": "res://timelines/2ballroom.dtl",
 "3Nikolas": "res://timelines/3Nikolas.dtl",
+"99levelselect": "res://timelines/99levelselect.dtl",
 "xgameover": "res://timelines/xgameover.dtl"
 }
 layout/style_directory={
-"corvus": "res://styles/corvus.tres",
-"earSpeaker": "res://styles/earSpeaker.tres"
+"": "res://styles/core.tres",
+"core": "res://styles/core.tres",
+"menu": "res://styles/menu.tres",
+"title": "res://styles/title.tres"
 }
-layout/style_list=[]
-layout/default_style=""
+layout/style_list=["res://styles/core.tres", "res://styles/menu.tres", "res://styles/title.tres"]
+layout/default_style="res://styles/core.tres"
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
@@ -76,7 +80,9 @@ audio/channel_defaults={
 "volume": 0.0
 }
 }
-variables={}
+variables={
+"nextSceneInput": ""
+}
 
 [editor_plugins]
 

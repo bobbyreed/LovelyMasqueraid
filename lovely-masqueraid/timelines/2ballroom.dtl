@@ -1,3 +1,6 @@
+[style name="title"]
+2. Main Floor of Ballroom - 11\:46 PM
+[style name="core"]
 After passing an unexpected challenge on entry you find yourself finally within the main floor festivities. Gaudy masquerade masks mocking those who have been enslaved by their “controlled programming” masks. Laughing in spite of the humans just down the hill being treated like mindless drones. Trapped while their bodies feel every waking moment of their painful labors.
 It’s rough out there, but you wouldn’t know it from the whimsy within the ballroom.
 Conversation pools and dives, an ocean of people present to have it. But you pick out one whirlpool from the riptide, centered on a round suited man with a collective of interested parties gaggled around him.
@@ -18,9 +21,10 @@ You mutter a response inside your mask.
 player: Good for him. Anything else?
 earSpeaker: We also learned that--
 You feel a tap on your shoulder.
-ray: Who ya talking to, friend?
+ray (Idle): Who ya talking to, friend?
 You snap into action, whirling around to face a man in a black suit. The orange-yellow accents almost blinding you with their audacity.
 player: Talking? You must have heard someone else. I was just muttering to myself about how much a bore this party is…
+join ray (Idle) left
 The man touches his mask, curious.
 ray: Oh, so you’re used to even more improved events? Well then, I simply must know everything about you.
 Typical aristocrat. Always trying to move up. Even among the uppers.
@@ -30,9 +34,11 @@ player: I, Rebecca Voltaire, have absolutely no interest in speaking with someon
 The man in the theater mask laughs. Bell-ish and merry. Too merry for someone complicit in extracting the agency of millions of parents, siblings, children– the list goes on. Too happy for a villain.
 ray: Ouch! Wow, I would in fact be offended…
 He leans down to pat your head and whispers in your ear.
+update ray (Happy) right
 ray: If you were the real Rebecca Voltaire.
 You’ve got to be kidding me. How does this random dude know?
-ray: You’re probably wondering how “this random dude knows” that you are in fact an impostor.”\
+join ray center
+ray (Idle): You’re probably wondering how “this random dude knows” that you are in fact an impostor.”\
 “Potentially even a spy.
 You give him your full attention. Whether you liked it or not, he would be your next problem to solve.
 ray: Right. I’m so happy you’ve come around to me. Here’s the deal!
@@ -48,9 +54,10 @@ ray: I thought you’d never ask!
 ray: All I want…
 ray: Is a new rumor to spread.
 ray: Think you can manage?
-ray: If not, I think I can come up with a real juicy one myself.
+ray (Happy): If not, I think I can come up with a real juicy one myself.
 You can imagine the rumor he’d tell on his own would be the flat truth. That there was in fact a spy in the midst of the uppers.
 Truth be told, you did know some pretty juicy rumors. It was just a matter of which one you were willing to share.
+audio "res://audio/sfx/Disturbance SFX_.wav"
 - This party is an inauguration for Rebecca Voltaire’s father – And he will be publicly executed when he is inaugurated.
 	# Allows attention to be focused on the stage and means you don’t need a hostage. HostageNeeded=False
 	Ray peers at you from beneath his mask.

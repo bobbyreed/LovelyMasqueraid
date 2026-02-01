@@ -1,3 +1,7 @@
 audio "res://audio/sfx/Death SFX_.wav"
 [background arg="res://sprites/You-Died-black-version-580x386.jpg" fade="0.5"]
-[end_timeline]
+audio "res://audio/music/aeris-lavender-waltz.mp3"
+- Return to Menu
+	jump 0menu/
+[wait time="10.0"]
+jump 0menu/

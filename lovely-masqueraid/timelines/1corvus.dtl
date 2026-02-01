@@ -1,4 +1,6 @@
-[style name="lovelyMask"]
+[style name="title"]
+1. Ballroom - 11\:32 PM
+[style name="core"]
 The air is warm and lights glow. Dancing in brilliant strokes artificial fire-flies flit about the air in front of the ballroom, mimicking the synchronized movements of those who dance within the masquerade hall.
 You’re almost lulled into the false sense of bliss the scene provides. But you see it for what it is. A mask, over what it takes to build such a beautiful illusion.
 You will free them all. Your brothers and sisters under tyranny. And no one will be able to stop you.
@@ -40,6 +42,7 @@ You hitch up your voice convincingly and hit him with the\:
 	player: Fine. If I ever see you again it’ll be too soon.
 	Corvus growls.
 	corvus: “Likewise.”
+	leave corvus
 	Well that worked out better than you’d thought. Despite not knowing Rebecca had an Ex… you managed to get through it.
 	Thankfully your read on their relationship was solid based on her personality comp.
 	You enter the ballroom
@@ -68,6 +71,7 @@ You hitch up your voice convincingly and hit him with the\:
 		corvus: I guess you’re still deserving of that title after all.
 		player: How much longer do you plan to keep me?
 		corvus: Get out of my sight. You’re terrible, you know that? I bought you flowers. FLOWERS.
+		leave corvus
 		Wow, Becky… Rebecca turned a man down who got her flowers in this economy? Frankly you’re shocked there ARE still flowers growing… period.
 		You feel bad for the dumped bouncer but feel better for leaving him.
 		You enter the ballroom
@@ -90,8 +94,9 @@ You hitch up your voice convincingly and hit him with the\:
 	corvus: Come back to me after the ball tonight. We can dance together. For real this time.
 	Well you accidentally fixed her relationship… you figure it’s the least you could do.
 	player: I— I’d be— willing… I suppose. To dance I mean.
-	Perfect.
+	corvus: Perfect.
 	He releases your hand with a smile and punches a random straggler who tries to tailgate you into the party. You curtsy to him and turn on your way.
+	leave corvus
 	Hurdle number one completed with flying colors you’d say.
 	You enter the ballroom
 	jump 2ballroom/

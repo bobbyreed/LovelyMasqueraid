@@ -21,13 +21,22 @@
 "style": "corvus",
 "suffix": ""
 },
-&"default_portrait": "Corvus Placeholder",
+&"default_portrait": "Corvus Idle",
 &"description": "The chief security for the facility and leader of the crows. As an unofficial security force for the evening of the masked ball they’ll be the greatest threat to the protagonist. Their relationship to Rebecca Voltaire and therefore the protagonist is one of an upset ex/lover. Rebecca ghosted him on a date and hasn’t responded since. But the protagonist must get by him in order to make it into the ballroom.",
 &"display_name": "Corvus",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
+"Corvus Idle": {
+"export_overrides": {
+"image": "\"res://sprites/CorvusIdle.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
 "Corvus Placeholder": {
 "export_overrides": {
 "image": "\"res://sprites/corvusPlaceholder.jpg\""

@@ -1,0 +1,11 @@
+[background arg="#9c35b8ff" fade="0.0"]
+audio "res://audio/music/kevin-macleod-valse-gymnopedie.mp3"
+[style name="menu"]
+join earSpeaker center
+earSpeaker: Welcome to our Lovely Masqueraid
+- Start Game
+	jump 1corvus/
+- Level Select
+	jump 99levelselect/
+- Exit Game
+	[end_timeline]

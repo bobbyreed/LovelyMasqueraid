@@ -1,0 +1,12 @@
+[text_input text="Enter the scene number (type 'back' to go back to the menu):" var="nextSceneInput" placeholder="1" default="1"]
+if {nextSceneInput} == "1":
+	jump 1corvus/
+elif {nextSceneInput} == "2":
+	jump 2ballroom/
+elif {nextSceneInput} == "3":
+	jump 3Nikolas/
+elif {nextSceneInput} == "back":
+	jump 0menu/
+else:
+	Not a valid option.
+	jump
