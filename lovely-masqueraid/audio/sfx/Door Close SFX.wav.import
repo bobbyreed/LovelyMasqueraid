@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c2j3n3e64wb0s"
+path="res://.godot/imported/Door Close SFX.wav-7d9dfb1f278cb6d8ad822eeee8a162fc.sample"
+
+[deps]
+
+source_file="res://audio/sfx/Door Close SFX.wav"
+dest_files=["res://.godot/imported/Door Close SFX.wav-7d9dfb1f278cb6d8ad822eeee8a162fc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
