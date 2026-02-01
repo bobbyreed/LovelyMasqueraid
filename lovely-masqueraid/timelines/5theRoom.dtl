@@ -1,0 +1,69 @@
+[style name="title"]
+The Room – 12\:56 AM
+[background arg="res://sprites/backgrounds/security.png" fade="0.0"]
+[style name="core"]
+After throwing the curtain aside you find yourself in the belly of the beast. And the door to the locked room is waiting for you almost immediately–waiting for its access code.
+You type in the door code immediately and stumble into the room.
+earSpeaker: Did you hear about the update they’re trying to send out? It’s going to patch our zero days and keep us from freeing them.
+player: I’m working on that.
+player: Gonna flip the off switch.
+earSpeaker: WhAT?
+player: Just get ready– and trust me.
+You crush the pea sized mic beneath your foot and shut the door behind you. Not worth getting caught with it.
+if {hasValen} == true:
+	Valen looks at you a little strange for all your mumbling but he’s distracted by the facility’s accommodations.
+	valen: Wow this is tight security – a password and everything?
+	player: Not as tight as Corvus upstairs…
+	valen: What?
+	player: What?
+	player: Never mind.
+	You scan the room, empty except for a console and a lever.
+	Peering down at the computer terminal you see it’s set to a timer, and that it has a stop gate– the lever next to you.
+	valen: I don’t think we’re supposed to be here…
+	He pulls you by the sleeve.
+	valen: The party must be somewhere else.
+	You turn to face him slowly, and you smile, sweetly and somehow full of years of spite.
+	The party is over.
+	- Pull the lever and cancel the update.
+		Smashing down the lever you watch as the update fails. The building shakes a little and the lights flicker momentarily.
+		All those people in the masks, would they be able to walk free now? Maybe disrupting the update will let your resistance hackers in…
+		valen: W-what did you do?
+		You take off your mask.
+		player: This is an insurgence.
+		You point your model gun at his head.
+		player: Welcome to the new world.
+		You pull the trigger.
+		Click.
+		He passes out. Stepping over his body and leaving the room you give him one last sad look before re-entering the ballroom.
+else:
+	You scan the room, empty except for a console and a lever.
+	Peering down at the computer terminal you see it’s set to a timer, and that it has a stop gate– the lever next to you.
+	player: Hah– All I have to do is pull this… and it might just free everyone.
+	You’re quiet for a moment. It would bring massive upheaval. Things might get worse before they get better…
+	But people would have a right to decide their own fate. Their actions would be their own again.
+	player: How anti-climactic.
+	You take off your mask. Party’s over
+	- Pull the lever and cancel the update.
+		Smashing down the lever you watch as the update fails. The building shakes a little and the lights flicker momentarily.
+		Had it really been that easy?
+		All those people in the masks, would they be able to walk free now? Maybe disrupting the update will let your resistance hackers in…
+		After all, disrupting the update will let your resistance hackers in...
+		It has to be the end. You would be sure of that. In the first of many acts of rebellion to come, you smash your mask against the floor before entering the ballroom one final time.
+Left and right “drones”--no, human beings–are taking off the masks that had kept them in servitude to the Upper Aristocracy for years. Some cry, some grin from ear to ear and others stir up a fight.
+You smirk at the success and begin to make a run for it.
+join corvus rightmost
+The tightly suited security guard, Corvus, tries to wrangle a few of them but looks helplessly overpowered. You salute him and continue forward.
+leave corvus
+join ray leftmost
+Raymond, the rumor mill, stands above the chaos on a raised platform, seemingly pleased with how the whole thing turned out and feeding off the energy.
+leave ray
+join nikolas left
+Nikolas, the launch code holder, runs a hand helplessly through his hair and shakes his head. You make sure to avoid his stressed line of sight.
+leave ray
+if {hasValen} == true:
+	join valen right
+	Valen, the well dressed man with the prosthetic ears huddles next to his female friend. Both watching with wide eyes and avoiding the more rowdy areas of the rebellion.
+else:
+	And finally, you exit the building. A cool summer breeze washing over you.
+	Finally, The end of an era.
+	Finally, a pleasant surprise

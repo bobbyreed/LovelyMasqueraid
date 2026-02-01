@@ -11,6 +11,15 @@ elif {nextSceneInput} == "3":
 elif {nextSceneInput} == "4":
 	[background fade="0.0"]
 	jump 4valen/
+elif {nextSceneInput} == "5":
+	[background fade="0.0"]
+	jump 5theRoom/
+elif {nextSceneInput} == "6":
+	[background fade="0.0"]
+	jump 6theEnd/
+elif {nextSceneInput} == "7":
+	[background fade="0.0"]
+	jump 7credits/
 elif {nextSceneInput} == "back":
 	jump 0menu/
 else:

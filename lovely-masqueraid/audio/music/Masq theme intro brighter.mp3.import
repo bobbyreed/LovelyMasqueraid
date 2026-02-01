@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bsu08i2r2occs"
+path="res://.godot/imported/Masq theme intro brighter.mp3-c7bf9592903fe1d114dbd8818982d5d0.mp3str"
+
+[deps]
+
+source_file="res://audio/music/Masq theme intro brighter.mp3"
+dest_files=["res://.godot/imported/Masq theme intro brighter.mp3-c7bf9592903fe1d114dbd8818982d5d0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

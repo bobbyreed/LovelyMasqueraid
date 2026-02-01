@@ -36,6 +36,9 @@ directories/dtl_directory={
 "2ballroom": "res://timelines/2ballroom.dtl",
 "3Nikolas": "res://timelines/3Nikolas.dtl",
 "4valen": "res://timelines/4valen.dtl",
+"5theRoom": "res://timelines/5theRoom.dtl",
+"6theEnd": "res://timelines/6theEnd.dtl",
+"7credits": "res://timelines/7credits.dtl",
 "99levelselect": "res://timelines/99levelselect.dtl",
 "xgameover": "res://timelines/xgameover.dtl"
 }
@@ -83,6 +86,7 @@ audio/channel_defaults={
 }
 variables={
 "HostageNeeded": false,
+"hasValen": false,
 "nextSceneInput": ""
 }
 
