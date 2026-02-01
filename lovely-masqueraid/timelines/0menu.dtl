@@ -1,7 +1,7 @@
 [background arg="#9c35b8ff" fade="0.0"]
 [background arg="res://sprites/coverImage.png" fade="0.0"]
 audio -
-audio "res://audio/music/lovely masqueraid mastered.mp3"
+audio music "res://audio/music/lovely masqueraid mastered.mp3"
 [style name="menu"]
 - Start Game
 	[background fade="0.0"]

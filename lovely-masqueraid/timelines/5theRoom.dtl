@@ -62,10 +62,11 @@ Raymond, the rumor mill, stands above the chaos on a raised platform, seemingly 
 leave ray
 join nikolas left
 Nikolas, the launch code holder, runs a hand helplessly through his hair and shakes his head. You make sure to avoid his stressed line of sight.
-leave ray
+leave nikolas
 if {hasValen} == true:
 	join valen right
 	Valen, the well dressed man with the prosthetic ears huddles next to his female friend. Both watching with wide eyes and avoiding the more rowdy areas of the rebellion.
+	leave valen
 And finally, you exit the building. A cool summer breeze washing over you.
 [background arg="res://sprites/backgrounds/outside.png" fade="0.0"]
 Finally, The end of an era.

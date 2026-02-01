@@ -32,6 +32,7 @@ scene = ExtResource("5_xdi34")
 script = ExtResource("2_y3s6x")
 scene = ExtResource("6_xr6ip")
 overrides = {
+"box_margin_bottom": "23.0",
 "box_size": "Vector2(1000, 150)",
 "normal_font": "\"res://fonts/cmu-typewriter/Typewriter.tres\"",
 "text_size": "20.0"
