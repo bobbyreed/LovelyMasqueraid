@@ -27,22 +27,31 @@ earSpeaker: --Good?
 earSpeaker: I’ll get out of your ears now and let you do what you do best
 You nod slightly at your invisible spectator and take your place in line.
 join corvus center
+[voice path="res://audio/voice/corvus_mp3/corvus_1_Name.mp3" volume="0.0"]
+corvus: Name?
+[voice path="res://audio/voice/corvus_mp3/corvus_2_HaAsIfIdForgetYou.mp3" volume="0.0"]
 corvus: Hah. As if I’d forget you Rebecca.
 Well that was convenient.
+[voice path="res://audio/voice/corvus_mp3/corvus_3_AndAsIfIdLetYouIn.mp3" volume="0.0"]
 corvus (Furrowed): And as if I’d let you in… I should stop you right here.
 Less convenient.
+[voice path="res://audio/voice/corvus_mp3/corvus_4_YouGhostedMe.mp3" volume="0.0"]
 corvus: You ghosted me on our blind date.
 Inconvenient. Definitely inconvenient. This was not in the file. Why was Rebecca Voltaire of all people dating a low grade security piece?
 Looking him over you see a band of honor around his arm, the kind they gave out for higher rank military who had served the Uppers in the Masking.
 Maybe not a low grade security piece but still, he was built like a brick wall. You’ll have to get through him at the very least.
 You hitch up your voice convincingly and hit him with the\:
 - As if I’d ever be seen with someone like you.
-	corvus (Furrowed): Typical.
+	[voice path="res://audio/voice/corvus_mp3/corvus_5_Typical.mp3" volume="0.0"]
+	corvus: Typical.
 	He rolls his eyes.
+	[voice path="res://audio/voice/corvus_mp3/corvus_6_YoureExhausting.mp3" volume="0.0"]
 	corvus: You’re exhausting, you know that?
+	[voice path="res://audio/voice/corvus_mp3/corvus_7_JustGoInsideAlready.mp3" volume="0.0"]
 	corvus: Just go inside already, then I won’t have to see your face anymore.
 	player: Fine. If I ever see you again it’ll be too soon.
 	Corvus growls.
+	[voice path="res://audio/voice/corvus_mp3/corvus_8_Likewise.mp3" volume="0.0"]
 	corvus: “Likewise.”
 	leave corvus
 	Well that worked out better than you’d thought. Despite not knowing Rebecca had an Ex… you managed to get through it.
@@ -50,28 +59,38 @@ You hitch up your voice convincingly and hit him with the\:
 	You enter the ballroom
 	jump 2ballroom/
 - We’ll talk later. My father will be displeased if I don’t meet him soon.
+	[voice path="res://audio/voice/corvus_mp3/corvus_9_ICouldCareLess.mp3" volume="0.0"]
 	corvus: I could care less if your father is displeased.
+	[voice path="res://audio/voice/corvus_mp3/corvus_10_ExplainYourself.mp3" volume="0.0"]
 	corvus: Explain yourself now, Becky.
 	player: We’re holding up the line…
+	[voice path="res://audio/voice/corvus_mp3/corvus_11_YeahJustLikeYou.mp3" volume="0.0"]
 	corvus: Yeah, just like you held me up at–
 	Suddenly he looks at you. His head tilts.
 	audio "res://audio/sfx/Disturbance SFX_.wav"
+	[voice path="res://audio/voice/corvus_mp3/corvus_12_DidYouSayWe.mp3" volume="0.0"]
 	corvus: Did you say we’re holding up the line?
 	- Yes
 		Corvus smiles eerily.
+		[voice path="res://audio/voice/corvus_mp3/corvus_16_WellWhatDoYou.mp3" volume="0.0"]
 		corvus: Well, what’d’ya know. Either my eyes deceive me and Bratty Becky’s grown a conscience or–
 		He leans in conspiratorially.
+		[voice path="res://audio/voice/corvus_mp3/corvus_17_WeHaveASpy.mp3" volume="0.0"]
 		corvus: We have a spy with a crack in their mask.
 		You try to back up, but he lifts your mask as you find yourself up against a wall of guards. How did they get here so fast!?
+		[voice path="res://audio/voice/corvus_mp3/corvus_18_CrowsGiveOurSpy.mp3" volume="0.0"]
 		corvus: Crows, give our spy a real mask.
 		crows: Understood.
 		You try to struggle but it’s too late. A mask is placed over your face and your body slumps to the ground while your mind remains fully conscious
 		This same fate has affected millions of others, and now it’s your turn to join the mindless drones, serving the very force you had hoped to put a stop to.
 		jump xgameover/
 	- No
+		[voice path="res://audio/voice/corvus_mp3/corvus_19_JeezIThoughtYouHad.mp3" volume="0.0"]
 		corvus: Jeez, I thought you had grown a conscience there for a second Bratty Becky.
+		[voice path="res://audio/voice/corvus_mp3/corvus_20_IGuessYoureStill.mp3" volume="0.0"]
 		corvus: I guess you’re still deserving of that title after all.
 		player: How much longer do you plan to keep me?
+		[voice path="res://audio/voice/corvus_mp3/corvus_21_GetOutOfMySight.mp3" volume="0.0"]
 		corvus: Get out of my sight. You’re terrible, you know that? I bought you flowers. FLOWERS.
 		leave corvus
 		Wow, Becky… Rebecca turned a man down who got her flowers in this economy? Frankly you’re shocked there ARE still flowers growing… period.
@@ -81,18 +100,22 @@ You hitch up your voice convincingly and hit him with the\:
 - I was… too shy to meet up with you. Will you give me another chance?
 	Corvus looks ready to respond in anger but evidently your words take him by surprise.
 	He blinks twice.
+	[voice path="res://audio/voice/corvus_mp3/corvus_13_What.mp3" volume="0.0"]
 	corvus: What?
 	player: I…come off as cold. I know that, but I really didn’t mean to do wrong by you…
 	Corvus frowns
 	player: I just wanted to be with you so badly I was afraid of myself…
 	Corvus seems torn. He runs a hand through his hair.
-	corvus (Idle): Are you being serious with me right now? I thought you hated me?
+	[voice path="res://audio/voice/corvus_mp3/corvus_14_AreYouBeingSerious.mp3" volume="0.0"]
+	corvus: Are you being serious with me right now? I thought you hated me?
 	You stomp your foot.
 	player: I didn’t hate you, you idiot! I– I— have feelings for you!
 	You push past Corvus trying to make a convincing flee of embarrassment, but you feel your hand catch in his. Bringing you to a halt.
+	[voice path="res://audio/voice/corvus_mp3/corvus_22_BeccaImSorryIDidnt.mp3" volume="0.0"]
 	corvus: Becca… I’m sorry I didn’t see it.
 	corvus: All this time I was too insecure, I doubted I could be a good man for you, what with your father being so close to the inner circle, and with your promotion to secretary…
 	He falters a little but then looks into your masked face.
+	[voice path="res://audio/voice/corvus_mp3/corvus_23_ComeBackToMeAfter.mp3" volume="0.0"]
 	corvus: Come back to me after the ball tonight. We can dance together. For real this time.
 	Well you accidentally fixed her relationship… you figure it’s the least you could do.
 	player: I— I’d be— willing… I suppose. To dance I mean.

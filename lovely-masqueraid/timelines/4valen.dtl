@@ -1,4 +1,5 @@
 [style name="title"]
+leave --All--
 Ballroom, Near the Bathrooms – 12\:23 AM
 [background arg="res://sprites/backgrounds/ballroomNook.png" fade="0.0"]
 [style name="core"]
