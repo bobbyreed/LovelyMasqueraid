@@ -73,4 +73,72 @@ Truth be told, you did know some pretty juicy rumors. It was just a matter of wh
 	ray: I like to think of it as job insurance.
 	He’s twisted, but at least he’s on your side by proxy.
 	player: Consider your job insured then. Until the revolution re-assigns you.
+	ray: I’m down for a change of pace. As long as I can keep the rumor mill turning. Life is more fun that way.
+	You smile at the hedonist from behind your mask. He’s a freak but at least he’s workable
+	player: How do I get in?
+	ray: Gotta find a way to get the access code from Nikolas I’d wager.
+	ray (Happy): I fear he’s not as keen on informational transparency though.
+	He points at a man under a long purple cape.
+	player: Any tips?
+	ray: Oh no, the guy hates me. Just make sure not to mention we’re friends and you might have a chance.
+	player: We aren’t friends.
+	ray: Look at that! You’re a natural actor– now go get that code
+	You set your lips and exhale. \
+	The mission has indeed become more complicated. \
+	But desperate times call for changing plans.
+	You find the corner of the room that Ray had pointed out to you and move your way toward it. Being forced to move slowly despite knowing about the now ticking time bomb was grating. But you knew you only had one shot to pull this off. \
+	\
+	And you had to do it right, the first time.
+	jump 3Nikolas/
 - Rebecca Voltaire was illicitly dating someone below her social rank and he’s the bouncer and head of security for this very event.
+	# You’ll still need to take a hostage but it’s a satisfying rumor. HostageNeeded=True
+	Ray tousles his hair.
+	ray: Well, it’s certainly dramatic… if you have the dramatic sense of a teenage girl
+	ray: But I suppose I didn’t put any real regulations on the rumor, and I can almost vouch for its truth with the way he’s taking glances at you from the door.
+	You turn to face the door and to your surprise you see that the head of security is indeed eyeing you down.
+	If this rumor was spread at least it would explain why he was goggling you so much, and take some of the suspicion off you as a spy. Even if it did draw more attention. 
+	ray: I’ll be the first to admit I find it very boring personally, however it suffices for the general riff and raff.
+	ray: And it would be a great shame if I didn’t keep to the rules of my own game.
+	ray: Here’s a secret for you. It’s all true too.
+	He leans in again speaking next to your ear.
+	ray: If you’re looking to stop the mask update there’s a timer in the basement below the ballroom floor.
+	ray: It’s a veritable vault, but the terminal within is a simple one made to fire off when “your father” is inaugurated.
+	ray: So if you want to keep people from going further down hill, you might want to stop it before it triggers. I should know, I helped make it.
+	player: You don’t care if I stop it?
+	ray: If it all works out perfectly, they won’t need me anymore. Buuutttt— I’ve made too many “mistakes” on the wiring in the tests so they’ll get suspicious if it happens again while I’m not being surveiled.
+	ray: I like to think of it as job insurance.
+	He’s twisted, but at least he’s on your side by proxy.
+	player: Consider your job insured then. Until the revolution re-assigns you.
+	ray: I’m down for a change of pace. As long as I can keep the rumor mill turning. Life is more fun that way.
+	You smile at the hedonist from behind your mask. He’s a freak but at least he’s workable
+	player: How do I get in?
+	ray: Gotta find a way to get the access code from Nikolas I’d wager.
+	ray (Happy): I fear he’s not as keen on informational transparency though.
+	He points at a man under a long purple cape.
+	player: Any tips?
+	ray: Oh no, the guy hates me. Just make sure not to mention we’re friends and you might have a chance.
+	player: We aren’t friends.
+	ray: Look at that! You’re a natural actor– now go get that code
+	You set your lips and exhale. \
+	The mission has indeed become more complicated. \
+	But desperate times call for changing plans.
+	You find the corner of the room that Ray had pointed out to you and move your way toward it. Being forced to move slowly despite knowing about the now ticking time bomb was grating. But you knew you only had one shot to pull this off. \\
+	\\
+	And you had to do it right, the first time.
+	jump 3Nikolas/
+- The masked drones will soon return to their humanity and no longer serve the aristocracy.
+	# Ray finds you boring and immediately reports you. \\You died
+	He stands. Looking at you for a moment behind the cold exterior of his mask.
+	Before you can even realize you’ve made a mistake he presses a button.
+	The lights in the building flicker out before he lifts his mask and winks at you.
+	Suddenly five server drones with real masks plastered onto their faces seize you by the arms and begin to carry you off through a side door.
+	One of them quickly muffles your mouth before shoving a mask on you.
+	Your body crumples to the floor instantly.
+	Unable to move, you hear footsteps and see the man’s boots waiting on the stairs above your head.
+	ray: What a lame excuse for a rumor.
+	ray: It doesn’t have a chance at being believed.
+	ray: And now it’s cost you everything.
+	ray: I’m sure I’ll regret this later. That’s probably what you’re thinking.
+	ray: And I will, but for now, at least I’m not bored anymore.
+	You feel your body stand up on its own, and you walk yourself to your own endless servitude.
+	jump xgameover/

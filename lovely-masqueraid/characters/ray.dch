@@ -2,7 +2,7 @@
 "@path": "res://addons/dialogic/Resources/character.gd",
 "@subpath": NodePath(""),
 &"_translation_id": "",
-&"color": Color(1, 1, 1, 1),
+&"color": Color(0.49019608, 0.11372549, 0.22745098, 1),
 &"custom_info": {
 "prefix": "",
 "sound_mood_default": "",
@@ -10,12 +10,31 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "",
-&"description": "",
+&"default_portrait": "Idle",
+&"description": "A rumor spreading aristocrat with a penchant for creating drama and confusion that he can profit off of. He’s not immediately unwilling to work with the protagonist but getting in his good graces has a price, the price being juicy secrets. They interact with the protagonist directly as a spy for most of the interaction and have a flamboyant sense of manipulation about them.",
 &"display_name": "Ray",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
-&"portraits": {},
+&"portraits": {
+"Happy": {
+"export_overrides": {
+"image": "\"res://sprites/RayWhisper.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Idle": {
+"export_overrides": {
+"image": "\"res://sprites/RayIdle.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
 &"scale": 1.0
 }

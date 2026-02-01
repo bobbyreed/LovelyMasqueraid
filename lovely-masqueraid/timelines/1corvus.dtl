@@ -50,7 +50,8 @@ You hitch up your voice convincingly and hit him with the\:
 	player: We’re holding up the line…
 	corvus: Yeah, just like you held me up at–
 	Suddenly he looks at you. His head tilts.
-	Did you say we’re holding up the line?
+	audio "res://audio/sfx/Disturbance SFX_.wav"
+	corvus: Did you say we’re holding up the line?
 	- Yes
 		Corvus smiles eerily.
 		corvus: Well, what’d’ya know. Either my eyes deceive me and Bratty Becky’s grown a conscience or–
@@ -61,9 +62,7 @@ You hitch up your voice convincingly and hit him with the\:
 		crows: Understood.
 		You try to struggle but it’s too late. A mask is placed over your face and your body slumps to the ground while your mind remains fully conscious
 		This same fate has affected millions of others, and now it’s your turn to join the mindless drones, serving the very force you had hoped to put a stop to.
-		[background arg="res://sprites/You-Died-black-version-580x386.jpg" fade="0.0"]
-		[end_timeline]
-		# TODO: Implement REURN to menu
+		jump xgameover/
 	- No
 		corvus: Jeez, I thought you had grown a conscience there for a second Bratty Becky.
 		corvus: I guess you’re still deserving of that title after all.
