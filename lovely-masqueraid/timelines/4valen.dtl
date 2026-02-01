@@ -6,6 +6,4 @@ In five minutes you’ve unscrewed a few of the pipes and trashed it satisfactor
 Returning from your exploration you tap the man on his pouf covered shoulder
 valen: Oh! Yes?
 player: I hate to be a bother but I have to use the lavatory and all of them are out of order.
-That's as far as I've gotten.
-[wait time="5.0"]
-jump 0menu/
+player: There seems to be some sort of issue with them.

@@ -1,5 +1,5 @@
 [style name="title"]
-[background fade="0.0"]
+[background arg="res://sprites/ballroom0.png" fade="0.0"]
 2. Main Floor of Ballroom - 11\:46 PM
 [style name="core"]
 After passing an unexpected challenge on entry you find yourself finally within the main floor festivities. Gaudy masquerade masks mocking those who have been enslaved by their “controlled programming” masks. Laughing in spite of the humans just down the hill being treated like mindless drones. Trapped while their bodies feel every waking moment of their painful labors.
@@ -107,7 +107,7 @@ audio "res://audio/sfx/Disturbance SFX_.wav"
 	ray: Well, it’s certainly dramatic… if you have the dramatic sense of a teenage girl
 	ray: But I suppose I didn’t put any real regulations on the rumor, and I can almost vouch for its truth with the way he’s taking glances at you from the door.
 	You turn to face the door and to your surprise you see that the head of security is indeed eyeing you down.
-	If this rumor was spread at least it would explain why he was goggling you so much, and take some of the suspicion off you as a spy. Even if it did draw more attention. 
+	If this rumor was spread at least it would explain why he was goggling you so much, and take some of the suspicion off you as a spy. Even if it did draw more attention.
 	ray: I’ll be the first to admit I find it very boring personally, however it suffices for the general riff and raff.
 	ray: And it would be a great shame if I didn’t keep to the rules of my own game.
 	ray: Here’s a secret for you. It’s all true too.

@@ -1,5 +1,5 @@
 [style name="title"]
-[background fade="0.0"]
+[background arg="res://sprites/backgrounds/ballroomNook.png" fade="0.0"]
 3. Ballroom Alcove - 11\:59 PM
 [style name="core"]
 You find yourself now in the back corner of the ballroom. Away from the clamor and dancing in the middle it’s eerily calm and relaxing. But you’re on a mission. Letting your guard down now would spell a fate worse than death.
@@ -59,6 +59,8 @@ Make your stand\:
 	He pats his breast pocket, indicating that it’s there.
 	nikolas: However, I’d never consider myself one to turn down a dance.
 	He takes the lead and you find yourself suddenly on the dance floor in the center of the ballroom.
+	[background arg="res://sprites/backgrounds/dancefloor.png" fade="0.0"]
+	audio "res://audio/music/aeris-lavender-waltz.mp3"
 	Now that you have his attention it’s time to engage some sleight of hand.
 	You cross the dance floor gracefully, and people clear the way as he spins and dips you.
 	You can’t tell if it’s the dance that’s exhilarating or the fact you’re about to pickpocket him.

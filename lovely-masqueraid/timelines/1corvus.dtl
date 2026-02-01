@@ -1,6 +1,7 @@
 [style name="title"]
 [background fade="0.0"]
 1. Ballroom - 11\:32 PM
+[background arg="res://sprites/backgrounds/entrance.png" fade="0.0"]
 [style name="core"]
 The air is warm and lights glow. Dancing in brilliant strokes artificial fire-flies flit about the air in front of the ballroom, mimicking the synchronized movements of those who dance within the masquerade hall.
 You’re almost lulled into the false sense of bliss the scene provides. But you see it for what it is. A mask, over what it takes to build such a beautiful illusion.
