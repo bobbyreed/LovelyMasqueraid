@@ -22,20 +22,24 @@ You mutter a response inside your mask.
 player: Good for him. Anything else?
 earSpeaker: We also learned that--
 You feel a tap on your shoulder.
+[voice path="res://audio/voice/ray/ray_1_WhoYaTalkingTo.wav" volume="0.0"]
 ray (Idle): Who ya talking to, friend?
 You snap into action, whirling around to face a man in a black suit. The orange-yellow accents almost blinding you with their audacity.
 player: Talking? You must have heard someone else. I was just muttering to myself about how much a bore this party is…
 join ray (Idle) left
 The man touches his mask, curious.
+[voice path="res://audio/voice/ray/ray_2_ISimplyMustKnow.wav" volume="0.0"]
 ray: Oh, so you’re used to even more improved events? Well then, I simply must know everything about you.
 Typical aristocrat. Always trying to move up. Even among the uppers.
 player: I’m absolutely not interested.
+[voice path="res://audio/voice/ray/ray_3_IThinkYouProbably.wav" volume="0.0"]
 ray: I think you probably should be.
 player: I, Rebecca Voltaire, have absolutely no interest in speaking with someone below me. It’s unseemly.
 The man in the theater mask laughs. Bell-ish and merry. Too merry for someone complicit in extracting the agency of millions of parents, siblings, children– the list goes on. Too happy for a villain.
 ray: Ouch! Wow, I would in fact be offended…
 He leans down to pat your head and whispers in your ear.
 update ray (Happy) right
+[voice path="res://audio/voice/ray/ray_4_IfYouWereTheReal.wav" volume="0.0"]
 ray: If you were the real Rebecca Voltaire.
 You’ve got to be kidding me. How does this random dude know?
 join ray center
@@ -43,18 +47,22 @@ ray (Idle): You’re probably wondering how “this random dude knows” that yo
 “Potentially even a spy.
 You give him your full attention. Whether you liked it or not, he would be your next problem to solve.
 ray: Right. I’m so happy you’ve come around to me. Here’s the deal!
+[voice path="res://audio/voice/ray/ray_5_RumorsAndIGoHand.wav" volume="0.0"]
 ray: Rumors and I go hand in hand. Where I go, a new rumor follows, you follow?
 player: Your point?
+[voice path="res://audio/voice/ray/ray_6_TheyThinkTheresASpy.wav" volume="0.0"]
 ray: The uppers are already suspicious, including the inner circle. They think there’s a spy, isn’t that crazy?
 He winks at you.
 ray: Now, I can’t make their suspicions go away entirely, but I might be able to redirect them for a price. And maybe give you some extra drama to chew on if the offer is good enough.
 He’s a curious case but at this point you feel it’s necessary to hear him out. If he really is a rumor agent as he claims, he’s a formidable foe if crossed. If all of this isn’t a bluff to begin with.
 player: If I was to go through with this “deal” what do you want from my end?
 The man’s body language is practically beaming.
+[voice path="res://audio/voice/ray/ray_7_IThoughtYoudNever.wav" volume="0.0"]
 ray: I thought you’d never ask!
 ray: All I want…
 ray: Is a new rumor to spread.
 ray: Think you can manage?
+[voice path="res://audio/voice/ray/ray_8_IfNotIThinkICan.wav" volume="0.0"]
 ray (Happy): If not, I think I can come up with a real juicy one myself.
 You can imagine the rumor he’d tell on his own would be the flat truth. That there was in fact a spy in the midst of the uppers.
 Truth be told, you did know some pretty juicy rumors. It was just a matter of which one you were willing to share.
@@ -63,6 +71,7 @@ audio "res://audio/sfx/Disturbance SFX_.wav"
 	set {HostageNeeded} = false
 	# Allows attention to be focused on the stage and means you don’t need a hostage. HostageNeeded=False
 	Ray peers at you from beneath his mask.
+	[voice path="res://audio/voice/ray/ray_9_YoureQuiteTheWordsmith.wav" volume="0.0"]
 	ray: You’re quite the wordsmith Miss Spy...
 	ray: I think I’m growing quite fond of you.
 	ray: That’s a wonderful and exciting blend of truth and lie so riveting it could make a robot sing.
@@ -78,6 +87,7 @@ audio "res://audio/sfx/Disturbance SFX_.wav"
 	ray: It’s a veritable vault, but the terminal within is a simple one made to fire off when “your father” is inaugurated.
 	ray: So if you want to keep people from going further down hill, you might want to stop it before it triggers. I should know, I helped make it.
 	player: You don’t care if I stop it?
+	[voice path="res://audio/voice/ray/ray_10_IfItAllWorksOutPerfectly.wav" volume="0.0"]
 	ray: If it all works out perfectly, they won’t need me anymore. Buuutttt— I’ve made too many mistakes on the wiring in the tests so they’ll get suspicious if it happens again while I’m not being surveiled.
 	ray: I like to think of it as job insurance.
 	He’s twisted, but at least he’s on your side by proxy.
@@ -89,6 +99,7 @@ audio "res://audio/sfx/Disturbance SFX_.wav"
 	ray (Happy): I fear he’s not as keen on informational transparency though.
 	He points at a man under a long purple cape.
 	player: Any tips?
+	[voice path="res://audio/voice/ray/ray_11_OhNoTheGuyHatesMe.wav" volume="0.0"]
 	ray: Oh no, the guy hates me. Just make sure not to mention we’re friends and you might have a chance.
 	player: We aren’t friends.
 	ray: Look at that! You’re a natural actor– now go get that code
@@ -104,6 +115,7 @@ audio "res://audio/sfx/Disturbance SFX_.wav"
 	# You’ll still need to take a hostage but it’s a satisfying rumor. HostageNeeded=True
 	set {HostageNeeded} = true
 	Ray tousles his hair.
+	[voice path="res://audio/voice/ray/ray_12_WellItsCertainlyDramatic.wav" volume="0.0"]
 	ray: Well, it’s certainly dramatic… if you have the dramatic sense of a teenage girl
 	ray: But I suppose I didn’t put any real regulations on the rumor, and I can almost vouch for its truth with the way he’s taking glances at you from the door.
 	You turn to face the door and to your surprise you see that the head of security is indeed eyeing you down.
@@ -116,6 +128,7 @@ audio "res://audio/sfx/Disturbance SFX_.wav"
 	ray: It’s a veritable vault, but the terminal within is a simple one made to fire off when “your father” is inaugurated.
 	ray: So if you want to keep people from going further down hill, you might want to stop it before it triggers. I should know, I helped make it.
 	player: You don’t care if I stop it?
+	[voice path="res://audio/voice/ray/ray_10_IfItAllWorksOutPerfectly.wav" volume="0.0"]
 	ray: If it all works out perfectly, they won’t need me anymore. Buuutttt— I’ve made too many “mistakes” on the wiring in the tests so they’ll get suspicious if it happens again while I’m not being surveiled.
 	ray: I like to think of it as job insurance.
 	He’s twisted, but at least he’s on your side by proxy.
@@ -127,6 +140,7 @@ audio "res://audio/sfx/Disturbance SFX_.wav"
 	ray (Happy): I fear he’s not as keen on informational transparency though.
 	He points at a man under a long purple cape.
 	player: Any tips?
+	[voice path="res://audio/voice/ray/ray_11_OhNoTheGuyHatesMe.wav" volume="0.0"]
 	ray: Oh no, the guy hates me. Just make sure not to mention we’re friends and you might have a chance.
 	player: We aren’t friends.
 	ray: Look at that! You’re a natural actor– now go get that code
@@ -146,10 +160,12 @@ audio "res://audio/sfx/Disturbance SFX_.wav"
 	One of them quickly muffles your mouth before shoving a mask on you.
 	Your body crumples to the floor instantly.
 	Unable to move, you hear footsteps and see the man’s boots waiting on the stairs above your head.
+	[voice path="res://audio/voice/ray/ray_13_WhatALameExcuseFor.wav" volume="0.0"]
 	ray: What a lame excuse for a rumor.
 	ray: It doesn’t have a chance at being believed.
 	ray: And now it’s cost you everything.
 	ray: I’m sure I’ll regret this later. That’s probably what you’re thinking.
+	[voice path="res://audio/voice/ray/ray_14_AtLeastImNotBored.wav" volume="0.0"]
 	ray: And I will, but for now, at least I’m not bored anymore.
 	You feel your body stand up on its own, and you walk yourself to your own endless servitude.
 	jump xgameover/

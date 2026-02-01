@@ -1,9 +1,10 @@
 [style name="title"]
 The Room – 12\:56 AM
-[background arg="res://sprites/backgrounds/security.png" fade="0.0"]
+[background arg="res://sprites/backgrounds/outBasement.png" fade="0.0"]
 [style name="core"]
 After throwing the curtain aside you find yourself in the belly of the beast. And the door to the locked room is waiting for you almost immediately–waiting for its access code.
 You type in the door code immediately and stumble into the room.
+[background arg="res://sprites/backgrounds/inBasement.png" fade="0.0"]
 earSpeaker: Did you hear about the update they’re trying to send out? It’s going to patch our zero days and keep us from freeing them.
 player: I’m working on that.
 player: Gonna flip the off switch.
@@ -35,6 +36,7 @@ if {hasValen} == true:
 		You pull the trigger.
 		Click.
 		He passes out. Stepping over his body and leaving the room you give him one last sad look before re-entering the ballroom.
+		leave valen
 else:
 	You scan the room, empty except for a console and a lever.
 	Peering down at the computer terminal you see it’s set to a timer, and that it has a stop gate– the lever next to you.
