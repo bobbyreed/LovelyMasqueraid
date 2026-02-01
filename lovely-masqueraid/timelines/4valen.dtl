@@ -1,5 +1,6 @@
 [style name="title"]
 Ballroom, Near the Bathrooms – 12\:23 AM
+[background arg="res://sprites/backgrounds/ballroomNook.png" fade="0.0"]
 [style name="core"]
 You walk over towards the bathrooms where the dressed man chats casually with a female friend, you slip into the hall for a moment but it looks like it’s just bathrooms after all.
 In five minutes you’ve unscrewed a few of the pipes and trashed it satisfactorily.
@@ -7,3 +8,57 @@ Returning from your exploration you tap the man on his pouf covered shoulder
 valen: Oh! Yes?
 player: I hate to be a bother but I have to use the lavatory and all of them are out of order.
 player: There seems to be some sort of issue with them.
+Valen giggles with the woman next to him.
+valen: Sounds like someone tried to do a royal flush.
+He and his friend laugh again.
+valen: I doubt there’s anything I can assist with. I don’t work here after all.
+valen: I don’t look like I work here, do I?
+if {HostageNeeded} == true:
+	player: Sorry, give me a second.
+	You’re definitely going to need a distraction, and you’d imagine he’d make a halfway decent damsel in distress. You flex your fingers indecisively.
+	- Grab him and threaten him.
+		You sweep him into your arm by the waist and hold a fake weapon to his head.
+		audio "res://audio/sfx/Disturbance SFX_.wav"
+		His friend gasps.
+		player: Okay Elfie, you’re coming with me.
+		valen: Oh my gowd are you for real!?
+		valen: SECURITY!
+		valen: There’s a disgusting lower spy clinging to me!
+		Well it’s not like you were going to actually hurt anyone.
+		Maybe you should have gone about things a bit more tactfully.
+		You try to break off and sprint for safety but you’re tackled by about seven drones.
+		Ah. Yeah that could have gone better.
+		jump xgameover/
+	- I heard there was a bathroom down in the basement that I could use, but the drone left before they told me where the basement was.
+		The man smirks.
+		valen: Embarrassingly enough I do actually know where the basement door is.
+		valen: It’s right there, see?
+		[background fade="0.0"]
+		He points to a set of stairs hidden behind a curtain on the other wall.
+		player: Ah, thanks for that, would you mind coming with me though?
+		valen: What!?
+		player: Well I thought I should at least ask nicely before I did this–
+		You sweep him into your arm by the waist and hold a fake weapon to his head.
+		His friend gasps.
+		valen: Oh. Well at least you asked.
+		player: I’d appreciate it if you two made a bit of a panic and caused a distraction for me. Unless you want to play hostage.
+		You remove the weapon and spin it on your finger.
+		player: Capiche?
+		valen: Whatever.
+		He clears his throat and screams.
+		valen: OH MY GOWD A SPY JUST LEFT THROUGH THE FRONT EXIT! SOMEBODY TACKLE THEM!
+		valen: SOMEBODY DO SOMETHING!
+		And it works like a charm. Immediate chaos.
+elif {HostageNeeded} == false:
+	player: No, definitely not, but…
+	Thankfully you didn’t need a distraction, you could spend time interrogating them instead.
+	With that rumor being spread, everyone’s eyes are trained carefully on the stage. Waiting for an assassination that would never take place.
+	- I heard there was a bathroom down in the basement that I could use, but the drone left before they told me where the basement was.
+		The man twitches.
+		valen: A bathroom, down there?
+		He points to a stairwell behind a large curtain.
+		valen: Honey there’s definitely not a toilet down there. I think the drone was malfunctioning.
+		player: Oh, never mind then, excuse me. I’ll find another one then.
+		valen: Sure… weirdo.
+		You depart in a rush but you take the long way to the stairwell.
+		As the music starts for the inauguration you realize there’s not much time left. And the crowd thunders, voices loud in cheer.
