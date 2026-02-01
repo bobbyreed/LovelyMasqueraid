@@ -49,6 +49,7 @@ else:
 		All those people in the masks, would they be able to walk free now? Maybe disrupting the update will let your resistance hackers in…
 		After all, disrupting the update will let your resistance hackers in...
 		It has to be the end. You would be sure of that. In the first of many acts of rebellion to come, you smash your mask against the floor before entering the ballroom one final time.
+[background arg="res://sprites/backgrounds/ballroom0.png" fade="0.0"]
 Left and right “drones”--no, human beings–are taking off the masks that had kept them in servitude to the Upper Aristocracy for years. Some cry, some grin from ear to ear and others stir up a fight.
 You smirk at the success and begin to make a run for it.
 join corvus rightmost
@@ -63,7 +64,9 @@ leave ray
 if {hasValen} == true:
 	join valen right
 	Valen, the well dressed man with the prosthetic ears huddles next to his female friend. Both watching with wide eyes and avoiding the more rowdy areas of the rebellion.
-else:
-	And finally, you exit the building. A cool summer breeze washing over you.
-	Finally, The end of an era.
-	Finally, a pleasant surprise
+And finally, you exit the building. A cool summer breeze washing over you.
+[background arg="res://sprites/backgrounds/outside.png" fade="0.0"]
+Finally, The end of an era.
+Finally, a pleasant surprise
+[wait time="3.0" skippable="true"]
+jump 6theEnd/

@@ -1,7 +1,7 @@
 [style name="title"]
 [background fade="0.0"]
 1. Ballroom - 11\:32 PM
-[background arg="res://sprites/backgrounds/entrance.png" fade="0.0"]
+[background arg="res://sprites/backgrounds/outside.png" fade="0.0"]
 [style name="core"]
 The air is warm and lights glow. Dancing in brilliant strokes artificial fire-flies flit about the air in front of the ballroom, mimicking the synchronized movements of those who dance within the masquerade hall.
 You’re almost lulled into the false sense of bliss the scene provides. But you see it for what it is. A mask, over what it takes to build such a beautiful illusion.
@@ -9,8 +9,8 @@ You will free them all. Your brothers and sisters under tyranny. And no one will
 After all, you’re a spy. Can you really have a masked gathering without someone hiding their true face?
 You’ve already sealed your entry. You’ll be pretending to be typical aristocrat Rebecca Voltaire, while the real Rebecca is being held by the resistance.
 She’ll be fine, but you hope somewhere in the back of your mind that you studied her file enough.
-join corvus (Furrowed) rightmost [mirrored="true"]
-Security isn’t tight as much as it is… well tight. And by tight, he’s nearly popping out of his pleasant green dress-shirt.
+join corvus rightmost [mirrored="true"]
+Security isn’t tight as much as it is… well tight. And by tight, he’s nearly popping out of his aptly marked security suit.
 This was the first hurdle you’d need to cross in order to figure out whether your organization’s hunch was anything close to accurate.
 leave corvus [animation="Slide To Right"]
 They mentioned a few theories... Static crinkles in your ear.
@@ -38,7 +38,7 @@ Less convenient.
 [voice path="res://audio/voice/corvus_mp3/corvus_4_YouGhostedMe.mp3" volume="0.0"]
 corvus: You ghosted me on our blind date.
 Inconvenient. Definitely inconvenient. This was not in the file. Why was Rebecca Voltaire of all people dating a low grade security piece?
-Looking him over you see a band of honor around his arm, the kind they gave out for higher rank military who had served the Uppers in the Masking.
+Looking him over, you see a band of honor around his arm. It was the kind they gave out for higher rank military who had served the Uppers in the Masking. It has the word “security” scrawled on it.
 Maybe not a low grade security piece but still, he was built like a brick wall. You’ll have to get through him at the very least.
 You hitch up your voice convincingly and hit him with the\:
 - As if I’d ever be seen with someone like you.

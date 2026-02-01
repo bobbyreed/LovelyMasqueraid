@@ -1,7 +1,7 @@
 [style name="title"]
 leave --All--
 Ballroom, Near the Bathrooms – 12\:23 AM
-[background arg="res://sprites/backgrounds/ballroomNook.png" fade="0.0"]
+[background arg="res://sprites/backgrounds/ballroom0.png" fade="0.0"]
 [style name="core"]
 You walk over towards the bathrooms where the dressed man chats casually with a female friend, you slip into the hall for a moment but it looks like it’s just bathrooms after all.
 In five minutes you’ve unscrewed a few of the pipes and trashed it satisfactorily.
@@ -71,6 +71,7 @@ elif {HostageNeeded} == false:
 		valen: Honey there’s definitely not a toilet down there. I think the drone was malfunctioning.
 		player: Oh, never mind then, excuse me. I’ll find another one then.
 		valen: Sure… weirdo.
+		leave valen
 		You depart in a rush but you take the long way to the stairwell.
 		As the music starts for the inauguration you realize there’s not much time left. And the crowd thunders, voices loud in cheer.
 		Thanks to your distraction you’re able to tear through the curtain as the guards have moved to protect the stage, wary of the pretend assasination threat.
