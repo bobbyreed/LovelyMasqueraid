@@ -1,0 +1,11 @@
+[style name="title"]
+Ballroom, Near the Bathrooms – 12\:23 AM
+[style name="core"]
+You walk over towards the bathrooms where the dressed man chats casually with a female friend, you slip into the hall for a moment but it looks like it’s just bathrooms after all.
+In five minutes you’ve unscrewed a few of the pipes and trashed it satisfactorily.
+Returning from your exploration you tap the man on his pouf covered shoulder
+valen: Oh! Yes?
+player: I hate to be a bother but I have to use the lavatory and all of them are out of order.
+That's as far as I've gotten.
+[wait time="5.0"]
+jump 0menu/

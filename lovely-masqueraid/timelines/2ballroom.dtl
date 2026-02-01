@@ -1,4 +1,5 @@
 [style name="title"]
+[background fade="0.0"]
 2. Main Floor of Ballroom - 11\:46 PM
 [style name="core"]
 After passing an unexpected challenge on entry you find yourself finally within the main floor festivities. Gaudy masquerade masks mocking those who have been enslaved by their “controlled programming” masks. Laughing in spite of the humans just down the hill being treated like mindless drones. Trapped while their bodies feel every waking moment of their painful labors.
@@ -59,6 +60,7 @@ You can imagine the rumor he’d tell on his own would be the flat truth. That t
 Truth be told, you did know some pretty juicy rumors. It was just a matter of which one you were willing to share.
 audio "res://audio/sfx/Disturbance SFX_.wav"
 - This party is an inauguration for Rebecca Voltaire’s father – And he will be publicly executed when he is inaugurated.
+	set {HostageNeeded} = false
 	# Allows attention to be focused on the stage and means you don’t need a hostage. HostageNeeded=False
 	Ray peers at you from beneath his mask.
 	ray: You’re quite the wordsmith Miss Spy...
@@ -99,6 +101,7 @@ audio "res://audio/sfx/Disturbance SFX_.wav"
 	jump 3Nikolas/
 - Rebecca Voltaire was illicitly dating someone below her social rank and he’s the bouncer and head of security for this very event.
 	# You’ll still need to take a hostage but it’s a satisfying rumor. HostageNeeded=True
+	set {HostageNeeded} = true
 	Ray tousles his hair.
 	ray: Well, it’s certainly dramatic… if you have the dramatic sense of a teenage girl
 	ray: But I suppose I didn’t put any real regulations on the rumor, and I can almost vouch for its truth with the way he’s taking glances at you from the door.
