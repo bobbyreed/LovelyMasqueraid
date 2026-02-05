@@ -7,6 +7,7 @@ You walk over towards the bathrooms where the dressed man chats casually with a 
 In five minutes you’ve unscrewed a few of the pipes and trashed it satisfactorily.
 Returning from your exploration you tap the man on his pouf covered shoulder
 join valen center
+[voice path="res://audio/voice/valen/Valen_1_OhYes.wav" volume="0.0"]
 valen: Oh! Yes?
 player: I hate to be a bother but I have to use the lavatory and all of them are out of order.
 player: There seems to be some sort of issue with them.
@@ -14,6 +15,7 @@ Valen giggles with the woman next to him.
 valen: Sounds like someone tried to do a royal flush.
 He and his friend laugh again.
 valen: I doubt there’s anything I can assist with. I don’t work here after all.
+[voice path="res://audio/voice/valen/Valen_2_IDon'tLookLike.wav" volume="0.0"]
 valen: I don’t look like I work here, do I?
 if {HostageNeeded} == true:
 	player: Sorry, give me a second.
@@ -24,6 +26,7 @@ if {HostageNeeded} == true:
 		His friend gasps.
 		player: Okay Elfie, you’re coming with me.
 		valen: Oh my gowd are you for real!?
+		[voice path="res://audio/voice/valen/Valen_3_Security.wav" volume="0.0"]
 		valen: SECURITY!
 		valen: There’s a disgusting lower spy clinging to me!
 		Well it’s not like you were going to actually hurt anyone.
@@ -35,6 +38,7 @@ if {HostageNeeded} == true:
 	[voice path="res://audio/voice/player/Player_17_IHeardThereWasABathroom.wav" volume="0.0"]
 	- I heard there was a bathroom down in the basement that I could use, but the drone left before they told me where the basement was.
 		The man smirks.
+		[voice path="res://audio/voice/valen/Valen_4_EmbarranssinglyEnough.wav" volume="0.0"]
 		valen: Embarrassingly enough I do actually know where the basement door is.
 		valen: It’s right there, see?
 		[background fade="0.0"]
@@ -44,6 +48,7 @@ if {HostageNeeded} == true:
 		player: Well I thought I should at least ask nicely before I did this–
 		You sweep him into your arm by the waist and hold a fake weapon to his head.
 		His friend gasps.
+		[voice path="res://audio/voice/valen/Valen_5_AtLeastYouAsked.wav" volume="0.0"]
 		valen: Oh. Well at least you asked.
 		player: I’d appreciate it if you two made a bit of a panic and caused a distraction for me. Unless you want to play hostage.
 		You remove the weapon and spin it on your finger.
@@ -51,6 +56,7 @@ if {HostageNeeded} == true:
 		valen: Whatever.
 		He clears his throat and screams.
 		valen: OH MY GOWD A SPY JUST LEFT THROUGH THE FRONT EXIT! SOMEBODY TACKLE THEM!
+		[voice path="res://audio/voice/valen/Valen_6_SomebodyDoSomething.wav" volume="0.0"]
 		valen: SOMEBODY DO SOMETHING!
 		And it works like a charm. Immediate chaos.
 		In the eruption you dash for the curtain and the stairs behind it, you watch the guards leave it behind and they barrel toward the door.
@@ -70,8 +76,10 @@ elif {HostageNeeded} == false:
 		The man twitches.
 		valen: A bathroom, down there?
 		He points to a stairwell behind a large curtain.
+		[voice path="res://audio/voice/valen/Valen_7_Honey.wav" volume="0.0"]
 		valen: Honey there’s definitely not a toilet down there. I think the drone was malfunctioning.
 		player: Oh, never mind then, excuse me. I’ll find another one then.
+		[voice path="res://audio/voice/valen/Valen_8_Weirdo.wav" volume="0.0"]
 		valen: Sure… weirdo.
 		leave valen
 		You depart in a rush but you take the long way to the stairwell.
@@ -84,12 +92,14 @@ elif {HostageNeeded} == false:
 	- I need to go to the basement, I hear there’s some kind of saucy gathering there,  how do I get down there?
 		His prosthetic elf ears twitch.
 		valen: A saucy gathering?
+		[voice path="res://audio/voice/valen/Valen_9_AndIWasn'tInvited.wav" volume="0.0"]
 		valen: And I wasn’t invited?
 		player: A travesty right? We should go tell them what for.
 		player: No party could be complete without someone like yourself
 		[voice path="res://audio/voice/player/Player_22_YouHaveAnAura.wav" volume="0.0"]
 		player: You have an… aura about you.
 		Your prey shakes his head as if dispelling discouraging thoughts.
+		[voice path="res://audio/voice/valen/Valen_10_WeMustSpeakToWhoever.wav" volume="0.0"]
 		valen: You’re absolutely right! We must speak to whoever’s in charge of those basement dwelling groupies.
 		valen: Stay here Martha, it could become… well, a sight.
 		His friend, evidently Martha, nods and backs off.
