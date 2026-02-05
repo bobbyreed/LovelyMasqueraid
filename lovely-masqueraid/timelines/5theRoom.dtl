@@ -16,6 +16,7 @@ if {hasValen} == true:
 	valen: Wow this is tight security – a password and everything?
 	player: Not as tight as Corvus upstairs…
 	valen: What?
+	[voice path="res://audio/voice/player/Player_23_What.wav" volume="0.0"]
 	player: What?
 	player: Never mind.
 	You scan the room, empty except for a console and a lever.
@@ -24,7 +25,8 @@ if {hasValen} == true:
 	He pulls you by the sleeve.
 	valen: The party must be somewhere else.
 	You turn to face him slowly, and you smile, sweetly and somehow full of years of spite.
-	The party is over.
+	[voice path="res://audio/voice/player/Player_24_ThePartyIsOver.wav" volume="0.0"]
+	player: The party is over.
 	- Pull the lever and cancel the update.
 		Smashing down the lever you watch as the update fails. The building shakes a little and the lights flicker momentarily.
 		All those people in the masks, would they be able to walk free now? Maybe disrupting the update will let your resistance hackers in…
@@ -43,6 +45,7 @@ else:
 	player: Hah– All I have to do is pull this… and it might just free everyone.
 	You’re quiet for a moment. It would bring massive upheaval. Things might get worse before they get better…
 	But people would have a right to decide their own fate. Their actions would be their own again.
+	[voice path="res://audio/voice/player/Player_25_HowAntiClimatic.wav" volume="0.0"]
 	player: How anti-climactic.
 	You take off your mask. Party’s over
 	- Pull the lever and cancel the update.

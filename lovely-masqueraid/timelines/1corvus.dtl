@@ -41,6 +41,7 @@ Inconvenient. Definitely inconvenient. This was not in the file. Why was Rebecca
 Looking him over, you see a band of honor around his arm. It was the kind they gave out for higher rank military who had served the Uppers in the Masking. It has the word “security” scrawled on it.
 Maybe not a low grade security piece but still, he was built like a brick wall. You’ll have to get through him at the very least.
 You hitch up your voice convincingly and hit him with the\:
+[voice path="res://audio/voice/player/Player_1_AsIf.wav" volume="0.0"]
 - As if I’d ever be seen with someone like you.
 	[voice path="res://audio/voice/corvus_mp3/corvus_5_Typical.mp3" volume="0.0"]
 	corvus: Typical.
@@ -58,6 +59,7 @@ You hitch up your voice convincingly and hit him with the\:
 	Thankfully your read on their relationship was solid based on her personality comp.
 	You enter the ballroom
 	jump 2ballroom/
+[voice path="res://audio/voice/player/Player_2_We'llTalkLater.wav" volume="0.0"]
 - We’ll talk later. My father will be displeased if I don’t meet him soon.
 	[voice path="res://audio/voice/corvus_mp3/corvus_9_ICouldCareLess.mp3" volume="0.0"]
 	corvus: I could care less if your father is displeased.
@@ -97,6 +99,7 @@ You hitch up your voice convincingly and hit him with the\:
 		You feel bad for the dumped bouncer but feel better for leaving him.
 		You enter the ballroom
 		jump 2ballroom/
+[voice path="res://audio/voice/player/Player_3_IWasToShy.wav" volume="0.0"]
 - I was… too shy to meet up with you. Will you give me another chance?
 	Corvus looks ready to respond in anger but evidently your words take him by surprise.
 	He blinks twice.
@@ -118,6 +121,7 @@ You hitch up your voice convincingly and hit him with the\:
 	[voice path="res://audio/voice/corvus_mp3/corvus_23_ComeBackToMeAfter.mp3" volume="0.0"]
 	corvus: Come back to me after the ball tonight. We can dance together. For real this time.
 	Well you accidentally fixed her relationship… you figure it’s the least you could do.
+	[voice path="res://audio/voice/player/Player_4_IdBeWilling.wav" volume="0.0"]
 	player: I— I’d be— willing… I suppose. To dance I mean.
 	corvus: Perfect.
 	He releases your hand with a smile and punches a random straggler who tries to tailgate you into the party. You curtsy to him and turn on your way.

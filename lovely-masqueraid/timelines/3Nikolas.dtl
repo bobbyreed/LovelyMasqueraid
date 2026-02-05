@@ -31,6 +31,7 @@ Make your stand\:
 	jump xgameover/
 - You will not believe the guy I just had to deal with.
 	# Works but he isn’t fond of you and suspicious
+	[voice path="res://audio/voice/player/Player_13_HeWasSpoutingNonsense.wav" volume="0.0"]
 	player: He was spouting nonsense about you having the authorization code to unlock some kind of facility under ground.
 	Nikolas grins.
 	player: Don’t tell me that loser was telling the truth.
@@ -41,12 +42,14 @@ Make your stand\:
 	player: I think you’re in the same social climbing caste as that yapper over there. Just trying to pull the wool over my eyes.
 	[voice path="res://audio/voice/nikolas/nikloas_9_MeALiarLikeHim.mp3" volume="0.0"]
 	nikolas: Me? A liar? Like him? You insult me!
+	[voice path="res://audio/voice/player/Player_14_WithoutProof.wav" volume="0.0"]
 	player: I could say the same to you, without proof you’re as good as a liar–making such grandiose claims on the day of my father’s inauguration.
 	Nikolas twitches. Looks like you’re hitting him where it hurts. His pride.
 	[voice path="res://audio/voice/nikolas/nikloas_10_YouSeeThePosition.mp3" volume="0.0"]
 	nikolas: Look what do you want me to do? Show you proprietary info? You see the position I’m in right?
 	You scoff.
 	player: As if, I only want proof that you have it. What? It’s not written on a slip of paper or anything?
+	[voice path="res://audio/voice/player/Player_15_ThenYourJustAsUnreliable.wav" volume="0.0"]
 	player: Then you’re just as unreliable as Mr. Rumor Mill over there. Plain and simple.
 	[voice path="res://audio/voice/nikolas/nikloas_11_ButThereIsAPaper.mp3" volume="0.0"]
 	nikolas: But there is a paper! See?
@@ -60,6 +63,7 @@ Make your stand\:
 	[voice path="res://audio/voice/nikolas/nikloas_12_ICertainlyPlanTo.mp3" volume="0.0"]
 	nikolas: Oh yeah, I certainly plan to.
 	He straightens the skull on his cape.
+	[voice path="res://audio/voice/player/Player_16_CatchYouLater.wav" volume="0.0"]
 	player: Catch you later?
 	[voice path="res://audio/voice/nikolas/nikloas_13_IdRatherNot.mp3" volume="0.0"]
 	nikolas: Thanks, but frankly I’d rather not.

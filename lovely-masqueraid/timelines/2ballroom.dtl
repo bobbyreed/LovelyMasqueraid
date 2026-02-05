@@ -9,16 +9,19 @@ If anything it’s a place to get started. He might even be your guy.
 You join the foaming throes of prissy aristocracy and listen begrudgingly as the babble about nothing and everything. Tuning your ears toward the center of the jabbering, you hear nothing of interest what-so-ever.
 earSpeaker: -----making progress? We don’t have visuals on you anymore so we assume stage one went well.
 You mutter a response inside your mask.
+[voice path="res://audio/voice/player/Player_5_DidYouKnow.wav" volume="0.0"]
 - Did you know Rebecca had a falling out with the bouncer? Apparently they were dating or something.
 	earSpeaker: You have no idea. “Bratty Becky” is laughing about it now. We made the mistake of de-gagging her to get more intel but I’m afraid it was too little too late.
 	player: Fun.
 	earSpeaker: No kidding. She did, however, accidentally spill the fact that her “daddy” got a promotion and will be inaugurated tonight at the ball for his new position in the inner circle.
+[voice path="res://audio/voice/player/Player_7_AllGood.wav" volume="0.0"]
 - All good. Can’t seem to find anyone worth listening to though.
 	earSpeaker: I’m sure you’ll find someone eventually. Maybe try looking around the dance floor?
 	player: Sure.
 	earSpeaker: In other news, Rebecca did spill some new info.
 	player: Oh?
 	earSpeaker: Apparently “Daddy” got a promotion and will be inaugurated tonight at the ball for his new position in the inner circle.
+[voice path="res://audio/voice/player/Player_6_GoodForHim.wav" volume="0.0"]
 player: Good for him. Anything else?
 earSpeaker: We also learned that--
 You feel a tap on your shoulder.
@@ -31,6 +34,7 @@ The man touches his mask, curious.
 [voice path="res://audio/voice/ray/ray_2_ISimplyMustKnow.wav" volume="0.0"]
 ray: Oh, so you’re used to even more improved events? Well then, I simply must know everything about you.
 Typical aristocrat. Always trying to move up. Even among the uppers.
+[voice path="res://audio/voice/player/Player_8_ImAbsolutly.wav" volume="0.0"]
 player: I’m absolutely not interested.
 [voice path="res://audio/voice/ray/ray_3_IThinkYouProbably.wav" volume="0.0"]
 ray: I think you probably should be.
@@ -55,6 +59,7 @@ ray: The uppers are already suspicious, including the inner circle. They think t
 He winks at you.
 ray: Now, I can’t make their suspicions go away entirely, but I might be able to redirect them for a price. And maybe give you some extra drama to chew on if the offer is good enough.
 He’s a curious case but at this point you feel it’s necessary to hear him out. If he really is a rumor agent as he claims, he’s a formidable foe if crossed. If all of this isn’t a bluff to begin with.
+[voice path="res://audio/voice/player/Player_9_WhatDoYouWantFrom.wav" volume="0.0"]
 player: If I was to go through with this “deal” what do you want from my end?
 The man’s body language is practically beaming.
 [voice path="res://audio/voice/ray/ray_7_IThoughtYoudNever.wav" volume="0.0"]
@@ -67,6 +72,7 @@ ray (Happy): If not, I think I can come up with a real juicy one myself.
 You can imagine the rumor he’d tell on his own would be the flat truth. That there was in fact a spy in the midst of the uppers.
 Truth be told, you did know some pretty juicy rumors. It was just a matter of which one you were willing to share.
 audio "res://audio/sfx/Disturbance SFX_.wav"
+[voice path="res://audio/voice/player/Player_10_ThisPartyIsAnInauguration.wav" volume="0.0"]
 - This party is an inauguration for Rebecca Voltaire’s father – And he will be publicly executed when he is inaugurated.
 	set {HostageNeeded} = false
 	# Allows attention to be focused on the stage and means you don’t need a hostage. HostageNeeded=False
@@ -111,6 +117,7 @@ audio "res://audio/sfx/Disturbance SFX_.wav"
 	\
 	And you had to do it right, the first time.
 	jump 3Nikolas/
+[voice path="res://audio/voice/player/Player_11_RebeccaVoltaireWasIliccitly.wav" volume="0.0"]
 - Rebecca Voltaire was illicitly dating someone below her social rank and he’s the bouncer and head of security for this very event.
 	# You’ll still need to take a hostage but it’s a satisfying rumor. HostageNeeded=True
 	set {HostageNeeded} = true
@@ -151,6 +158,7 @@ audio "res://audio/sfx/Disturbance SFX_.wav"
 	You find the corner of the room that Ray had pointed out to you and move your way toward it. Being forced to move slowly despite knowing about the now ticking time bomb was grating. But you knew you only had one shot to pull this off.
 	And you had to do it right, the first time.
 	jump 3Nikolas/
+[voice path="res://audio/voice/player/Player_12_TheMaskedDrones.wav" volume="0.0"]
 - The masked drones will soon return to their humanity and no longer serve the aristocracy.
 	# Ray finds you boring and immediately reports you. \\You died
 	He stands. Looking at you for a moment behind the cold exterior of his mask.
