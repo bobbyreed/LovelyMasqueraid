@@ -15,6 +15,7 @@ if {hasValen} == true:
 	Valen looks at you a little strange for all your mumbling but he’s distracted by the facility’s accommodations.
 	valen: Wow this is tight security – a password and everything?
 	player: Not as tight as Corvus upstairs…
+	[voice path="res://audio/voice/valen/Valen_11_What.wav" volume="0.0"]
 	valen: What?
 	[voice path="res://audio/voice/player/Player_23_What.wav" volume="0.0"]
 	player: What?
@@ -23,6 +24,7 @@ if {hasValen} == true:
 	Peering down at the computer terminal you see it’s set to a timer, and that it has a stop gate– the lever next to you.
 	valen: I don’t think we’re supposed to be here…
 	He pulls you by the sleeve.
+	[voice path="res://audio/voice/valen/Valen_12_ThePartyMustBeSomewhereElse.wav" volume="0.0"]
 	valen: The party must be somewhere else.
 	You turn to face him slowly, and you smile, sweetly and somehow full of years of spite.
 	[voice path="res://audio/voice/player/Player_24_ThePartyIsOver.wav" volume="0.0"]

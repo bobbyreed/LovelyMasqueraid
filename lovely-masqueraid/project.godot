@@ -86,6 +86,7 @@ audio/channel_defaults={
 }
 variables={
 "HostageNeeded": false,
+"gameCompleted": false,
 "hasValen": false,
 "nextSceneInput": ""
 }

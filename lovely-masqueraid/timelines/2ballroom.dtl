@@ -1,4 +1,5 @@
 [style name="title"]
+audio music "res://audio/music/beat piano drums bass 170.mp3"
 [background arg="res://sprites/backgrounds/dancefloor.png" fade="0.0"]
 2. Main Floor of Ballroom - 11\:46 PM
 [style name="core"]
@@ -14,8 +15,8 @@ You mutter a response inside your mask.
 	earSpeaker: You have no idea. “Bratty Becky” is laughing about it now. We made the mistake of de-gagging her to get more intel but I’m afraid it was too little too late.
 	player: Fun.
 	earSpeaker: No kidding. She did, however, accidentally spill the fact that her “daddy” got a promotion and will be inaugurated tonight at the ball for his new position in the inner circle.
-[voice path="res://audio/voice/player/Player_7_AllGood.wav" volume="0.0"]
 - All good. Can’t seem to find anyone worth listening to though.
+	audio "res://audio/voice/player/Player_7_AllGood.wav"
 	earSpeaker: I’m sure you’ll find someone eventually. Maybe try looking around the dance floor?
 	player: Sure.
 	earSpeaker: In other news, Rebecca did spill some new info.
@@ -117,8 +118,8 @@ audio "res://audio/sfx/Disturbance SFX_.wav"
 	\
 	And you had to do it right, the first time.
 	jump 3Nikolas/
-[voice path="res://audio/voice/player/Player_11_RebeccaVoltaireWasIliccitly.wav" volume="0.0"]
 - Rebecca Voltaire was illicitly dating someone below her social rank and he’s the bouncer and head of security for this very event.
+	audio "res://audio/voice/player/Player_11_RebeccaVoltaireWasIliccitly.wav"
 	# You’ll still need to take a hostage but it’s a satisfying rumor. HostageNeeded=True
 	set {HostageNeeded} = true
 	Ray tousles his hair.
@@ -158,8 +159,8 @@ audio "res://audio/sfx/Disturbance SFX_.wav"
 	You find the corner of the room that Ray had pointed out to you and move your way toward it. Being forced to move slowly despite knowing about the now ticking time bomb was grating. But you knew you only had one shot to pull this off.
 	And you had to do it right, the first time.
 	jump 3Nikolas/
-[voice path="res://audio/voice/player/Player_12_TheMaskedDrones.wav" volume="0.0"]
 - The masked drones will soon return to their humanity and no longer serve the aristocracy.
+	audio "res://audio/voice/player/Player_12_TheMaskedDrones.wav"
 	# Ray finds you boring and immediately reports you. \\You died
 	He stands. Looking at you for a moment behind the cold exterior of his mask.
 	Before you can even realize you’ve made a mistake he presses a button.

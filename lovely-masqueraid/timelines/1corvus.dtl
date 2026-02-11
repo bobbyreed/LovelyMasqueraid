@@ -1,4 +1,5 @@
 [style name="title"]
+audio music "res://audio/music/masqueraid piano only spooky maybe.mp3"
 [background fade="0.0"]
 1. Ballroom - 11\:32 PM
 [background arg="res://sprites/backgrounds/outside.png" fade="0.0"]
@@ -59,8 +60,8 @@ You hitch up your voice convincingly and hit him with the\:
 	Thankfully your read on their relationship was solid based on her personality comp.
 	You enter the ballroom
 	jump 2ballroom/
-[voice path="res://audio/voice/player/Player_2_We'llTalkLater.wav" volume="0.0"]
 - We’ll talk later. My father will be displeased if I don’t meet him soon.
+	audio "res://audio/voice/player/Player_2_We'llTalkLater.wav"
 	[voice path="res://audio/voice/corvus_mp3/corvus_9_ICouldCareLess.mp3" volume="0.0"]
 	corvus: I could care less if your father is displeased.
 	[voice path="res://audio/voice/corvus_mp3/corvus_10_ExplainYourself.mp3" volume="0.0"]
@@ -99,8 +100,8 @@ You hitch up your voice convincingly and hit him with the\:
 		You feel bad for the dumped bouncer but feel better for leaving him.
 		You enter the ballroom
 		jump 2ballroom/
-[voice path="res://audio/voice/player/Player_3_IWasToShy.wav" volume="0.0"]
 - I was… too shy to meet up with you. Will you give me another chance?
+	audio "res://audio/voice/player/Player_3_IWasToShy.wav"
 	Corvus looks ready to respond in anger but evidently your words take him by surprise.
 	He blinks twice.
 	[voice path="res://audio/voice/corvus_mp3/corvus_13_What.mp3" volume="0.0"]

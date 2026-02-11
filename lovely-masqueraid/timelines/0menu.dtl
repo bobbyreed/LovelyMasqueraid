@@ -3,10 +3,18 @@
 audio -
 audio music "res://audio/music/lovely masqueraid mastered.mp3"
 [style name="menu"]
-- Start Game
+- New Game
 	[background fade="0.0"]
 	jump 1corvus/
-- Level Select
+- Load Game
+	[background fade="0.0"]
+	jump 1corvus/
+	- Slot 1
+	- Slot 2
+	- 
+	- Slot 3
+- Level Select | [if {gameCompleted} == true] [else="disable"]
 	jump 99levelselect/
 - Exit Game
 	[end_timeline]
+	[signal arg="exit"]

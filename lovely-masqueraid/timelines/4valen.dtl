@@ -35,8 +35,8 @@ if {HostageNeeded} == true:
 		You try to break off and sprint for safety but you’re tackled by about seven drones.
 		Ah. Yeah that could have gone better.
 		jump xgameover/
-	[voice path="res://audio/voice/player/Player_17_IHeardThereWasABathroom.wav" volume="0.0"]
 	- I heard there was a bathroom down in the basement that I could use, but the drone left before they told me where the basement was.
+		audio "res://audio/voice/player/Player_17_IHeardThereWasABathroom.wav"
 		The man smirks.
 		[voice path="res://audio/voice/valen/Valen_4_EmbarranssinglyEnough.wav" volume="0.0"]
 		valen: Embarrassingly enough I do actually know where the basement door is.
@@ -71,8 +71,8 @@ elif {HostageNeeded} == false:
 	player: No, definitely not, but…
 	Thankfully you didn’t need a distraction, you could spend time interrogating them instead.
 	With that rumor being spread, everyone’s eyes are trained carefully on the stage. Waiting for an assassination that would never take place.
-	[voice path="res://audio/voice/player/Player_18_ButTheDroneLeft.wav" volume="0.0"]
 	- I heard there was a bathroom down in the basement that I could use, but the drone left before they told me where the basement was.
+		audio "res://audio/voice/player/Player_18_ButTheDroneLeft.wav"
 		The man twitches.
 		valen: A bathroom, down there?
 		He points to a stairwell behind a large curtain.
@@ -87,9 +87,9 @@ elif {HostageNeeded} == false:
 		Thanks to your distraction you’re able to tear through the curtain as the guards have moved to protect the stage, wary of the pretend assasination threat.
 		You don’t know exactly what you’ll find down here, but you hope going through the effort to snag the code was worth it.
 		jump 5theRoom/
-	[voice path="res://audio/voice/player/Player_20_IHereThereIsSomeKindOfSaucy.wav" volume="0.0"]
-	[voice path="res://audio/voice/player/Player_21_HowDoIGetDownThere.wav" volume="0.0"]
 	- I need to go to the basement, I hear there’s some kind of saucy gathering there,  how do I get down there?
+		audio "res://audio/voice/player/Player_20_IHereThereIsSomeKindOfSaucy.wav"
+		audio "res://audio/voice/player/Player_21_HowDoIGetDownThere.wav"
 		His prosthetic elf ears twitch.
 		valen: A saucy gathering?
 		[voice path="res://audio/voice/valen/Valen_9_AndIWasn'tInvited.wav" volume="0.0"]

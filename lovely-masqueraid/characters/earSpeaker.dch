@@ -10,12 +10,22 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "",
+&"default_portrait": "Earpiece",
 &"description": "Person in player's ear",
 &"display_name": "Ear Speaker",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
-&"portraits": {},
+&"portraits": {
+"Earpiece": {
+"export_overrides": {
+"image": "\"res://sprites/earpiece.png\""
+},
+"mirror": false,
+"offset": Vector2(-6, 0),
+"scale": 0.1,
+"scene": ""
+}
+},
 &"scale": 1.0
 }
