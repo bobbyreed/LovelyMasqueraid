@@ -1,4 +1,5 @@
 [style name="title"]
+audio music -
 audio music "res://audio/music/masqueraid 174.mp3"
 [background arg="res://sprites/backgrounds/ballroom0.png" fade="0.0"]
 3. Ballroom Alcove - 11\:59 PM

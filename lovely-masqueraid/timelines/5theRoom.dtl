@@ -1,4 +1,6 @@
 [style name="title"]
+audio music -
+audio music "res://audio/music/masqueraid piano only spooky maybe.mp3"
 The Room – 12\:56 AM
 [background arg="res://sprites/backgrounds/outBasement.png" fade="0.0"]
 [style name="core"]

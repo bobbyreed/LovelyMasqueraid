@@ -1,4 +1,5 @@
 [style name="title"]
+audio music -
 audio music "res://audio/music/beat piano drums bass 170.mp3"
 [background arg="res://sprites/backgrounds/dancefloor.png" fade="0.0"]
 2. Main Floor of Ballroom - 11\:46 PM
@@ -8,6 +9,7 @@ It’s rough out there, but you wouldn’t know it from the whimsy within the ba
 Conversation pools and dives, an ocean of people present to have it. But you pick out one whirlpool from the riptide, centered on a round suited man with a collective of interested parties gaggled around him.
 If anything it’s a place to get started. He might even be your guy.
 You join the foaming throes of prissy aristocracy and listen begrudgingly as the babble about nothing and everything. Tuning your ears toward the center of the jabbering, you hear nothing of interest what-so-ever.
+join earSpeaker leftmost
 earSpeaker: -----making progress? We don’t have visuals on you anymore so we assume stage one went well.
 You mutter a response inside your mask.
 [voice path="res://audio/voice/player/Player_5_DidYouKnow.wav" volume="0.0"]
@@ -26,6 +28,7 @@ You mutter a response inside your mask.
 player: Good for him. Anything else?
 earSpeaker: We also learned that--
 You feel a tap on your shoulder.
+leave earSpeaker
 [voice path="res://audio/voice/ray/ray_1_WhoYaTalkingTo.wav" volume="0.0"]
 ray (Idle): Who ya talking to, friend?
 You snap into action, whirling around to face a man in a black suit. The orange-yellow accents almost blinding you with their audacity.

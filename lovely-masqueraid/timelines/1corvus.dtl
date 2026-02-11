@@ -1,4 +1,5 @@
 [style name="title"]
+audio music -
 audio music "res://audio/music/masqueraid piano only spooky maybe.mp3"
 [background fade="0.0"]
 1. Ballroom - 11\:32 PM
@@ -26,6 +27,7 @@ earSpeaker: --Good?
 	earSpeaker: And we might not have a chance to put people back together mentally if they take on any more ‘corrective programming’.
 	earSpeaker: However, the number one expectation is that you get out alive. Shouldn’t be too difficult given your skillset.
 earSpeaker: I’ll get out of your ears now and let you do what you do best
+leave earSpeaker [animation="Slide From Left"]
 You nod slightly at your invisible spectator and take your place in line.
 join corvus center
 [voice path="res://audio/voice/corvus_mp3/corvus_1_Name.mp3" volume="0.0"]
