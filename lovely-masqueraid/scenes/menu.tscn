@@ -1,6 +1,30 @@
 [gd_scene format=3 uid="uid://c4bdwg6cbyllo"]
 
 [ext_resource type="Script" uid="uid://beg01u31c2wpq" path="res://scripts/startDialogic.gd" id="1_yqeox"]
+[ext_resource type="Script" uid="uid://t7lvv1v7fbw4" path="res://scripts/load.gd" id="2_vjb58"]
+[ext_resource type="Script" uid="uid://bk68pjjb5lo7m" path="res://scripts/save.gd" id="3_con2f"]
 
 [node name="Node2D" type="Node2D" unique_id=1663146098]
 script = ExtResource("1_yqeox")
+
+[node name="LoadControl" type="Control" parent="." unique_id=1836470195]
+visible = false
+z_index = -1
+layout_mode = 3
+anchors_preset = 0
+offset_left = 590.0
+offset_top = 227.0
+offset_right = 630.0
+offset_bottom = 267.0
+script = ExtResource("2_vjb58")
+
+[node name="SaveControl" type="Control" parent="." unique_id=1022989839]
+visible = false
+z_index = 1
+layout_mode = 3
+anchors_preset = 0
+offset_left = 592.0
+offset_top = 228.0
+offset_right = 632.0
+offset_bottom = 268.0
+script = ExtResource("3_con2f")

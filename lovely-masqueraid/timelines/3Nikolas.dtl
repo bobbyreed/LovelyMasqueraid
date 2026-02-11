@@ -2,6 +2,7 @@
 audio music -
 audio music "res://audio/music/masqueraid 174.mp3"
 [background arg="res://sprites/backgrounds/ballroom0.png" fade="0.0"]
+[save slot="1"]
 3. Ballroom Alcove - 11\:59 PM
 [style name="core"]
 You find yourself now in the back corner of the ballroom. Away from the clamor and dancing in the middle it’s eerily calm and relaxing. But you’re on a mission. Letting your guard down now would spell a fate worse than death.
@@ -19,6 +20,7 @@ player: So you do know.
 nikolas: Did you think I just waved you over because you look stunning? You’d be right but still…
 He looks you over. Ah, a flirt. Well, you have ways of dealing with those.
 Make your stand\:
+[save slot="1"]
 - If I seduce you, are you gonna give me all the secret codes?
 	# Why did you think this was going to work?\\You died
 	[voice path="res://audio/voice/nikolas/nikloas_4_WellIMeanYouAre.mp3" volume="0.0"]

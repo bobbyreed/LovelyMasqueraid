@@ -4,6 +4,7 @@ audio music "res://audio/music/beat piano drums bass 170.mp3"
 [background arg="res://sprites/backgrounds/dancefloor.png" fade="0.0"]
 2. Main Floor of Ballroom - 11\:46 PM
 [style name="core"]
+[save slot="1"]
 After passing an unexpected challenge on entry you find yourself finally within the main floor festivities. Gaudy masquerade masks mocking those who have been enslaved by their “controlled programming” masks. Laughing in spite of the humans just down the hill being treated like mindless drones. Trapped while their bodies feel every waking moment of their painful labors.
 It’s rough out there, but you wouldn’t know it from the whimsy within the ballroom.
 Conversation pools and dives, an ocean of people present to have it. But you pick out one whirlpool from the riptide, centered on a round suited man with a collective of interested parties gaggled around him.
@@ -75,6 +76,7 @@ ray: Think you can manage?
 ray (Happy): If not, I think I can come up with a real juicy one myself.
 You can imagine the rumor he’d tell on his own would be the flat truth. That there was in fact a spy in the midst of the uppers.
 Truth be told, you did know some pretty juicy rumors. It was just a matter of which one you were willing to share.
+[save slot="1"]
 audio "res://audio/sfx/Disturbance SFX_.wav"
 [voice path="res://audio/voice/player/Player_10_ThisPartyIsAnInauguration.wav" volume="0.0"]
 - This party is an inauguration for Rebecca Voltaire’s father – And he will be publicly executed when he is inaugurated.

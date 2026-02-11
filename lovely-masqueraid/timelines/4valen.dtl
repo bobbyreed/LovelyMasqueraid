@@ -1,5 +1,6 @@
 [style name="title"]
 leave --All--
+[save slot="1"]
 Ballroom, Near the Bathrooms – 12\:23 AM
 [background arg="res://sprites/backgrounds/ballroom0.png" fade="0.0"]
 [style name="core"]
@@ -20,6 +21,7 @@ valen: I don’t look like I work here, do I?
 if {HostageNeeded} == true:
 	player: Sorry, give me a second.
 	You’re definitely going to need a distraction, and you’d imagine he’d make a halfway decent damsel in distress. You flex your fingers indecisively.
+	[save slot="1"]
 	- Grab him and threaten him.
 		You sweep him into your arm by the waist and hold a fake weapon to his head.
 		audio "res://audio/sfx/Disturbance SFX_.wav"
@@ -71,6 +73,7 @@ elif {HostageNeeded} == false:
 	player: No, definitely not, but…
 	Thankfully you didn’t need a distraction, you could spend time interrogating them instead.
 	With that rumor being spread, everyone’s eyes are trained carefully on the stage. Waiting for an assassination that would never take place.
+	[save slot="1"]
 	- I heard there was a bathroom down in the basement that I could use, but the drone left before they told me where the basement was.
 		audio "res://audio/voice/player/Player_18_ButTheDroneLeft.wav"
 		The man twitches.
@@ -106,6 +109,3 @@ elif {HostageNeeded} == false:
 		valen: Well? Let’s go then!
 		He leads the way toward a curtain covering a stairwell, almost dragging you behind him in the enthusiastic march.
 		set {hasValen} = true
-		Nearly pulling you down the stairwell and through the curtain, Valen leads the way as the two of you enter the not so secret chamber. Valen growls something at the guards and the let you pass. He must have some kind of clearance. Surprising.
-		Or maybe the guards just knew better than to mess with a man in a dress. Whatever the case you now find yourself deep within the basement of the ballroom. Ready to carry out the last stage of your mission.
-		jump 5theRoom/
