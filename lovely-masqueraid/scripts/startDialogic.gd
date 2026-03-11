@@ -4,13 +4,17 @@ extends Node2D
 func _ready() -> void:
 	Dialogic.start('0menu')
 	Dialogic.signal_event.connect(_on_dialogic_signal)
+	
+
 
 func _on_dialogic_signal(argument:String):
 	if argument == 'exit':
 		get_tree().quit();
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	pass
+	if Input.is_key_pressed(KEY_0):
+		Dialogic.VAR.gameCompleted = true;
+		get_tree().reload_current_scene();
 	
 func _on_save_game_button_pressed() -> void:
 	Dialogic.Save.save("", false, Dialogic.Save.ThumbnailMode.NONE)

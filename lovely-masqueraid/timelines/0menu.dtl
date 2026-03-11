@@ -1,5 +1,7 @@
 [background arg="#9c35b8ff" fade="0.0"]
 [background arg="res://sprites/coverImage.png" fade="0.0"]
+leave --All--
+<Empty Text Event>
 audio -
 audio music "res://audio/music/lovely masqueraid mastered.mp3"
 [style name="menu"]
@@ -15,3 +17,4 @@ audio music "res://audio/music/lovely masqueraid mastered.mp3"
 - Exit Game
 	[end_timeline]
 	[signal arg="exit"]
+<Empty Text Event>

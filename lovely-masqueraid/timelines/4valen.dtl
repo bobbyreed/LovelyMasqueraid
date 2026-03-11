@@ -1,3 +1,4 @@
+<Empty Text Event>
 [style name="title"]
 leave --All--
 [save slot="1"]
@@ -109,3 +110,4 @@ elif {HostageNeeded} == false:
 		valen: Well? Let’s go then!
 		He leads the way toward a curtain covering a stairwell, almost dragging you behind him in the enthusiastic march.
 		set {hasValen} = true
+<Empty Text Event>

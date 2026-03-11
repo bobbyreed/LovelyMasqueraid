@@ -1,4 +1,5 @@
 leave --All--
+<Empty Text Event>
 audio "res://audio/sfx/Death SFX_.wav"
 [background arg="res://sprites/You-Died-black-version-580x386.jpg" fade="0.5"]
 audio -

@@ -1,8 +1,10 @@
-[style name="title"]
+<Empty Text Event>
+leave --All--
 audio music -
 audio music "res://audio/music/masqueraid 174.mp3"
 [background arg="res://sprites/backgrounds/ballroom0.png" fade="0.0"]
 [save slot="1"]
+[style name="title"]
 3. Ballroom Alcove - 11\:59 PM
 [style name="core"]
 You find yourself now in the back corner of the ballroom. Away from the clamor and dancing in the middle it’s eerily calm and relaxing. But you’re on a mission. Letting your guard down now would spell a fate worse than death.
@@ -108,3 +110,4 @@ elif {HostageNeeded} == false:
 	Probably worth a shot right?
 	You set off across the room, hopefully for the final time now.
 	jump 4valen/
+<Empty Text Event>

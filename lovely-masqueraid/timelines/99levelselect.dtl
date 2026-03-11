@@ -1,4 +1,4 @@
-[text_input text="Enter the scene number (type 'back' to go back to the menu):" var="nextSceneInput" placeholder="1" default="1"]
+[text_input text="Enter the scene number (type 'back' to go back to the menu):" var="nextSceneInput"]
 if {nextSceneInput} == "1":
 	[background fade="0.0"]
 	jump 1corvus/
@@ -24,4 +24,5 @@ elif {nextSceneInput} == "back":
 	jump 0menu/
 else:
 	Not a valid option.
-	jump
+	jump 
+<Empty Text Event>

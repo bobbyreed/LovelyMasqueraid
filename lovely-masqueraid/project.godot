@@ -45,10 +45,17 @@ directories/dtl_directory={
 layout/style_directory={
 "": "res://styles/core.tres",
 "core": "res://styles/core.tres",
+"corvus": "res://styles/corvus.tres",
+"credits": "res://styles/credits.tres",
+"earSpeaker": "res://styles/earSpeaker.tres",
 "menu": "res://styles/menu.tres",
-"title": "res://styles/title.tres"
+"nikolasStyle": "res://styles/nikolasStyle.tres",
+"player": "res://styles/player.tres",
+"ray": "res://styles/ray.tres",
+"title": "res://styles/title.tres",
+"valen": "res://styles/valen.tres"
 }
-layout/style_list=["res://styles/core.tres", "res://styles/menu.tres", "res://styles/title.tres"]
+layout/style_list=["res://styles/core.tres", "res://styles/menu.tres", "res://styles/title.tres", "res://styles/earSpeaker.tres", "res://styles/corvus.tres", "res://styles/player.tres", "res://styles/ray.tres", "res://styles/valen.tres", "res://styles/nikolasStyle.tres", "res://styles/credits.tres"]
 layout/default_style="res://styles/core.tres"
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"

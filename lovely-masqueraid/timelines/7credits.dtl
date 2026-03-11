@@ -1,3 +1,24 @@
-Credits go here
+[background arg="res://sprites/coverImage.png" fade="0.0"]
+<Empty Text Event>
+leave --All--
+[style name="credits"]
+Lovely Masqueraid was made by a PUG for the GGJ '25
+SimplyAshes - Art/Character Design/Backgrounds/QA\
+\
+bobby reed - Engineerin'\
+\
+Drodlaren (Xrssm) - main theme composer\
+\
+Oldladies7 (Leslie) - Narrative/Project Management/Voice Direction/QA\
+\
+DoubleH (DoubleH106) - Sound & Audio/SFX/Foley\
+\
+BigCat75 (Felix) - Voice of Corvus / Audio Production\
+\
+JeanSummers (Benny) - Voice of Player / Valen\
+\
+Yassica_Shrimpson - Voice of Ray / Nikolas
+Thanks for playing!
 [wait time="5.0" skippable="true"]
 jump 0menu/
+<Empty Text Event>

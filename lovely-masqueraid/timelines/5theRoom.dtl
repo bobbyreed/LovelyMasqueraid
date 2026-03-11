@@ -1,3 +1,4 @@
+<Empty Text Event>
 [style name="title"]
 audio music -
 audio music "res://audio/music/masqueraid piano only spooky maybe.mp3"
@@ -81,3 +82,4 @@ Finally, The end of an era.
 Finally, a pleasant surprise
 [wait time="3.0" skippable="true"]
 jump 6theEnd/
+<Empty Text Event>

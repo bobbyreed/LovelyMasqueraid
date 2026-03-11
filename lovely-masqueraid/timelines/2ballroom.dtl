@@ -1,7 +1,7 @@
-[style name="title"]
 audio music -
 audio music "res://audio/music/beat piano drums bass 170.mp3"
 [background arg="res://sprites/backgrounds/dancefloor.png" fade="0.0"]
+[style name="title"]
 2. Main Floor of Ballroom - 11\:46 PM
 [style name="core"]
 [save slot="1"]
@@ -183,3 +183,4 @@ audio "res://audio/sfx/Disturbance SFX_.wav"
 	ray: And I will, but for now, at least I’m not bored anymore.
 	You feel your body stand up on its own, and you walk yourself to your own endless servitude.
 	jump xgameover/
+<Empty Text Event>
